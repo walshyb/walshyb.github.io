@@ -2,25 +2,19 @@ import React from 'react';
 import './App.css';
 import Header from './components/shell/Header';
 import Footer from './components/shell/Footer';
-import { Route, Switch } from 'react-router-dom';
-import Intro from './components/page-components/Intro';
-import About from './components/page-components/About';
-import Projects from './components/page-components/Projects';
+import Intro from './page-components/Intro';
+import About from './page-components/About';
+import Projects from './page-components/Projects';
 
 function App() {
   return (
-    <div id="root">
+    <div>
       <Header />
       <div className="content">
-        <Switch>
-          <Route path="/">
-            <Intro />
-            <About />
-            <Projects />
-          </Route>
-        </Switch>
+        <Intro />
+        <About />
+        <Footer />
       </div>
-      <Footer />
     </div>
   );
 }
