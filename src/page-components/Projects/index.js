@@ -14,7 +14,7 @@ function Projects() {
   return (
     <section className="projects">
       { projectData.map( ( project ) => {
-          return <ProjectItem  { ...project } />
+          return <ProjectItem  { ...project } key={ project.name } />
         })
       }
     </section>

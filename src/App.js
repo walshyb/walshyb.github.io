@@ -1,8 +1,7 @@
 import React from 'react';
-import './App.css';
+import './styles/main.scss';
 import Header from './components/shell/Header';
 import Footer from './components/shell/Footer';
-import Intro from './page-components/Intro';
 import About from './page-components/About';
 import Projects from './page-components/Projects';
 
@@ -11,7 +10,6 @@ function App() {
     <div>
       <Header />
       <div className="content">
-        <Intro />
         <About />
         <Projects />
         <Footer />
