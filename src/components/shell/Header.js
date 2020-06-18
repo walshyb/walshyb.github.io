@@ -6,6 +6,7 @@ export default class Header extends Component {
     return (
       <header>
         <div className="color-picker">
+          <span>Left</span>
         </div>
         <div className="title-wrap">
           <h1>Brandon Walsh | Full Stack Developer</h1>

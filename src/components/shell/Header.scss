@@ -1,5 +1,10 @@
 header {
-  .color-picker { }
+  width: 100%;
+
+  .color-picker {
+    height: 60px;
+    margin-left: -70px;
+  }
 
   .title-wrap {
     h1 {
