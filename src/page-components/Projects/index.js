@@ -12,12 +12,12 @@ function Projects() {
   ];
 
   return (
-    <div className="projects">
+    <section className="projects">
       { projectData.map( ( project ) => {
           return <ProjectItem  { ...project } />
         })
       }
-    </div>
+    </section>
   );
 }
 
