@@ -1,0 +1,35 @@
+/* Change color dependent on class name*/
+@mixin themeColor($color) {
+  .project-item:before {
+    background-color: $color;
+  }
+  
+  .hashtag {
+    color: $color;
+  }
+
+  // TOOD:
+  // Add border colors, button colors
+}
+
+main {
+  // Orange theme by default
+  @include themeColor(darkorange);
+
+  &.purple {
+    @include themeColor(purple);
+  }
+
+  &.blue {
+    @include themeColor(darkblue);
+  }
+
+  &.yellow {
+    @include themeColor(darkorange);
+  }
+
+  &.green {
+    @include themeColor(green);
+  }
+}
+
