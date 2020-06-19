@@ -2,8 +2,44 @@ header {
   width: 100%;
 
   .color-picker {
-    height: 60px;
-    margin-left: -70px;
+    margin-left: -55px;
+    margin-top: 15px;
+    width: 50px;
+    display: flex;
+    align-content: flex-end;
+    flex-wrap: wrap;
+
+    .color {
+      width: 20px;
+      height: 20px;
+      border-radius: 100%;
+      border: 1px solid black;
+
+      // Add margin right to first and third children
+      &:nth-child(odd) {
+        margin-right: 10px;
+      }
+
+      &:first-child {
+        margin-bottom: 7px;
+      }
+
+      &.blue {
+        background-color: blue;
+      }
+
+      &.yellow {
+        background-color: yellow;
+      }
+
+      &.green {
+        background-color: green;
+      }
+      
+      &.purple {
+        background-color: purple;
+      }
+    }
   }
 
   .title-wrap {

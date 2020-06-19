@@ -1,21 +1,40 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './styles/main.scss';
 import Header from './components/shell/Header';
 import Footer from './components/shell/Footer';
 import About from './page-components/About';
 import Projects from './page-components/Projects';
 
-function App() {
-  return (
-    <div>
-      <Header />
-      <main className="content">
-        <About />
-        <Projects />
-        <Footer />
-      </main>
-    </div>
-  );
-}
+export default class App extends Component {
+  state = {
+    color: 'orange'
+  };
 
-export default App;
+  /**
+   * Update global color
+   *
+   * @param String color 
+   */
+  updateGlobalColor = ( color ) => {
+    this.setState({
+      ...this.state,
+      color
+    });
+  }
+  
+  render() {
+    const { color } = this.state;
+    const mainClassName = 'content ' + color;
+
+    return (
+      <div>
+        <Header updateGlobalColor={ this.updateGlobalColor } />
+        <main className={ mainClassName }>
+          <About />
+          <Projects />
+          <Footer />
+        </main>
+      </div>
+    );
+  }
+}
