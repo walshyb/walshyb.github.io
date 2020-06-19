@@ -11,7 +11,7 @@ export default class Tag extends Component {
     const { name } = this.props;
 
     return <div className="tag">
-      <span className="hashtag"></span>
+      <span className="hashtag">#</span>
       <span className="tag-name">{ name }</span>
     </div>
   }
