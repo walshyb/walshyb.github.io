@@ -1,0 +1,11 @@
+.projects {
+  display: flex;
+
+  .project-item {
+    margin-right: 60px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

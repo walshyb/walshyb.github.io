@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Tag from './Tag';
+import './ProjectItem.scss';
 
 export default class ProjectItem extends Component {
   static propTypes = {
