@@ -4,7 +4,6 @@ header {
   .color-picker {
     margin-left: -55px;
     margin-top: 15px;
-    width: 50px;
     display: flex;
     align-content: flex-end;
     flex-wrap: wrap;
@@ -15,22 +14,14 @@ header {
       border-radius: 100%;
       border: 1px solid black;
       cursor: pointer;
-
-      // Add margin right to first and third children
-      &:nth-child(odd) {
-        margin-right: 10px;
-      }
-
-      &:first-child {
-        margin-bottom: 7px;
-      }
+      margin-right: 10px;
 
       &.blue {
         background-color: blue;
       }
 
       &.yellow {
-        background-color: yellow;
+        background-color: darkorange;
       }
 
       &.green {

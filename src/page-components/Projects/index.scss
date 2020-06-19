@@ -1,8 +1,10 @@
 .projects {
   display: flex;
+  flex-wrap: wrap;
 
   .project-item {
     margin-right: 60px;
+    margin-bottom: 40px;
 
     &:last-child {
       margin-right: 0;
