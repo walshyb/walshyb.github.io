@@ -5,5 +5,11 @@ body {
 }
 
 #root {
-  margin: 0 70px;
+  @include media('>small') {
+    margin: 0 10px;
+  }
+
+  @include media('>medium') {
+    margin: 0 70px;
+  }
 }

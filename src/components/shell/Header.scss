@@ -1,3 +1,6 @@
+@import '../../styles/variables';
+@import '~include-media/dist/include-media';
+
 header {
   width: 100%;
 
@@ -7,6 +10,12 @@ header {
     display: flex;
     align-content: flex-end;
     flex-wrap: wrap;
+
+    // Hide color picker on mobile
+    @include media('<medium') {
+      display: none;
+    }
+
 
     .color {
       width: 20px;
@@ -27,7 +36,7 @@ header {
       &.green {
         background-color: green;
       }
-      
+
       &.purple {
         background-color: purple;
       }

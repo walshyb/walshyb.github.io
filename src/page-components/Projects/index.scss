@@ -1,13 +1,25 @@
+@import '../../styles/variables';
+@import '~include-media/dist/include-media';
+
 .projects {
   display: flex;
   flex-wrap: wrap;
 
+  @include media('<medium') {
+    justify-content: center;
+  }
+
   .project-item {
-    margin-right: 60px;
     margin-bottom: 40px;
+    min-width: 425px;
+    flex: 1;
+
+    @include media('>medium') {
+      margin-right: 60px;
+    }
 
     &:last-child {
-      margin-right: 0;
+      //margin-right: 0;
     }
   }
 }
