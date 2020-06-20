@@ -4,6 +4,7 @@ import './Header.scss';
 import GithubLogo from '../../images/github.svg';
 import LinkedInLogo from '../../images/linkedin.svg';
 import Email from '../../images/email.svg';
+import Resume from '../../images/resume.svg';
 import { Link } from 'react-router-dom';
 
 export default class Header extends Component {
@@ -53,7 +54,7 @@ export default class Header extends Component {
               <img src={ Email } alt='Email' />
             </Link>
             <Link to="/Brandon_Walsh_Resume.pdf" target="_blank">
-              <img src={ Email } alt='Resume' />
+              <img src={ Resume } alt='Resume' />
             </Link>
           </nav>
         </div>
