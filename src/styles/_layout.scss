@@ -5,8 +5,9 @@ body {
 }
 
 #root {
+  margin: 0 10px;
   @include media('>small') {
-    margin: 0 10px;
+    margin: 0 30px;
   }
 
   @include media('>medium') {

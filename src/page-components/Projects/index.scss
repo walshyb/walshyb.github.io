@@ -11,8 +11,11 @@
 
   .project-item {
     margin-bottom: 40px;
-    min-width: 425px;
-    flex: 1;
+
+    @include media('>small') {
+      flex: 1;
+      min-width: 425px;
+    }
 
     @include media('>medium') {
       margin-right: 60px;
