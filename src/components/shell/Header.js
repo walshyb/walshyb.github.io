@@ -52,6 +52,9 @@ export default class Header extends Component {
             <Link to={{ pathname: 'mailto:bmwalshy@gmail.com' }}>
               <img src={ Email } alt='' />
             </Link>
+            <Link to="/Brandon_Walsh_Resume.pdf" target="_blank">
+              <img src={ Email } alt='' />
+            </Link>
           </nav>
         </div>
       </header>
