@@ -44,16 +44,16 @@ export default class Header extends Component {
           <h1>Brandon Walsh | Full Stack Developer</h1>
           <nav>
             <Link to={{ pathname: 'https://github.com/walshyb' }} target='_blank'>
-              <img src={ GithubLogo } alt='' />
+              <img src={ GithubLogo } alt='Github' />
             </Link>
             <Link to={{ pathname: 'https://www.linkedin.com/in/bwalshy/' }} target='_blank'>
-              <img src={ LinkedInLogo } alt='' />
+              <img src={ LinkedInLogo } alt='LinkedIn' />
             </Link>
             <Link to={{ pathname: 'mailto:bmwalshy@gmail.com' }}>
-              <img src={ Email } alt='' />
+              <img src={ Email } alt='Email' />
             </Link>
             <Link to="/Brandon_Walsh_Resume.pdf" target="_blank">
-              <img src={ Email } alt='' />
+              <img src={ Email } alt='Resume' />
             </Link>
           </nav>
         </div>
