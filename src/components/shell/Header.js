@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import './Header.scss';
+import GithubLogo from '../../images/github.svg';
+import LinkedInLogo from '../../images/linkedin.svg';
+import Email from '../../images/email.svg';
+import { Link } from 'react-router-dom';
 
 export default class Header extends Component {
   static propTypes = {
@@ -25,7 +29,7 @@ export default class Header extends Component {
 
     return (
       <header>
-        <div className="color-picker">
+        <div className='color-picker'>
           { colors.map( color => {
               return <div
                 id={ color }
@@ -36,9 +40,18 @@ export default class Header extends Component {
             }) }
         </div>
 
-        <div className="title-wrap">
+        <div className='title-wrap'>
           <h1>Brandon Walsh | Full Stack Developer</h1>
           <nav>
+            <Link to={{ pathname: 'https://github.com/walshyb' }} target='_blank'>
+              <img src={ GithubLogo } alt='' />
+            </Link>
+            <Link to={{ pathname: 'https://www.linkedin.com/in/bwalshy/' }} target='_blank'>
+              <img src={ LinkedInLogo } alt='' />
+            </Link>
+            <Link to={{ pathname: 'mailto:bmwalshy@gmail.com' }}>
+              <img src={ Email } alt='' />
+            </Link>
           </nav>
         </div>
       </header>
