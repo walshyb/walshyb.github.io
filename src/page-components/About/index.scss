@@ -1,7 +1,17 @@
 .about {
   p {
     max-width: 600px;
-    margin-top: 30px;
-    margin-bottom: 60px;
+
+    &:first-child {
+      margin-top: 30px;
+    }
+
+    &:last-child {
+      margin-bottom: 60px;
+    }
+
+    .tag {
+      display: inline-block;
+    }
   }
 }
