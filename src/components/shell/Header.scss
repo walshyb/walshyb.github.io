@@ -61,6 +61,10 @@ header {
       font-size: em(34px);
       font-weight: 400;
       margin-right: 50px;
+
+      span {
+        white-space: pre;
+      }
     }
 
     nav {

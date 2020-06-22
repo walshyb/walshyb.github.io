@@ -43,7 +43,7 @@ export default class Header extends Component {
         </div>
 
         <div className='title-wrap'>
-          <h1>Brandon Walsh | Full Stack Developer</h1>
+          <h1><span>Brandon Walsh | </span> Full Stack Developer</h1>
           <nav>
             <Link to={{ pathname: 'https://github.com/walshyb' }} target='_blank'>
               <img src={ GithubLogo } alt='Github' />
