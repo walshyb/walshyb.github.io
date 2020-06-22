@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.4b082d43.chunk.css",
+    "main.css": "/static/css/main.2098dfbf.chunk.css",
     "main.js": "/static/js/main.f3b35ab3.chunk.js",
     "main.js.map": "/static/js/main.f3b35ab3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ebaa091e.js",
@@ -8,9 +8,9 @@
     "static/js/2.5e2d9421.chunk.js": "/static/js/2.5e2d9421.chunk.js",
     "static/js/2.5e2d9421.chunk.js.map": "/static/js/2.5e2d9421.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.25ec6bcd50fb5bd54cffb3957629aed4.js": "/precache-manifest.25ec6bcd50fb5bd54cffb3957629aed4.js",
+    "precache-manifest.c9aa5c1fa590d9ad2f14051b586b989b.js": "/precache-manifest.c9aa5c1fa590d9ad2f14051b586b989b.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.4b082d43.chunk.css.map": "/static/css/main.4b082d43.chunk.css.map",
+    "static/css/main.2098dfbf.chunk.css.map": "/static/css/main.2098dfbf.chunk.css.map",
     "static/js/2.5e2d9421.chunk.js.LICENSE.txt": "/static/js/2.5e2d9421.chunk.js.LICENSE.txt",
     "static/media/catskills-conf.png": "/static/media/catskills-conf.7244b327.png",
     "static/media/email.svg": "/static/media/email.8a890f7c.svg",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.ebaa091e.js",
     "static/js/2.5e2d9421.chunk.js",
-    "static/css/main.4b082d43.chunk.css",
+    "static/css/main.2098dfbf.chunk.css",
     "static/js/main.f3b35ab3.chunk.js"
   ]
 }
