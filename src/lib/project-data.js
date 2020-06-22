@@ -14,7 +14,7 @@ const projectData = [
   {
       name: 'Radio Kingston',
       image: RadioKingstonImage,
-      tags: ['react', 'es6', 'sass', 'node', 'wordpress'],
+      tags: ['react', 'es6', 'sass', 'node', 'wordpress', 'ssr'],
       content: 'Radio Kingston is a local radio station in Kingston, NY. Working as a member of the Moonfarmer team, we built a react site as to play on-demand station episodes & podcasts.',
       liveSiteUrl: 'https://radiokingston.org',
       caseStudyUrl: 'https://moonfarmer.com/work/radio-kingston'
