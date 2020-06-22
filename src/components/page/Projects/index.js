@@ -1,7 +1,7 @@
 import React from 'react';
-import ProjectItem from '../../components/common/ProjectItem';
+import ProjectItem from '../..//common/ProjectItem';
 import './index.scss';
-import projectData from '../../lib/project-data';
+import projectData from '../../../lib/project-data';
 
 function Projects() {
 

@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import './styles/main.scss';
 import Header from './components/shell/Header';
 import Footer from './components/shell/Footer';
-import About from './page-components/About';
-import Projects from './page-components/Projects';
+import About from './components/page/About';
+import Projects from './components/page/Projects';
 
 export default class App extends Component {
   state = {

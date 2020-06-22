@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.scss';
-import Tag from '../../components/common/Tag';
+import Tag from '../../common/Tag';
 
 export default function About() {
   return (
