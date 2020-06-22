@@ -30,6 +30,7 @@ export default class ProjectItem extends Component {
           <p>{ content }</p>
         </div>
         <div className="project-links">
+          <a className="project-button" href="#jim">Case Study</a>
         </div>
       </article>
     );

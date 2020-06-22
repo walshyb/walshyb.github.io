@@ -32,6 +32,23 @@
     }
   }
 
+  .project-links {
+    margin: 25px;
 
+    a.project-button {
+      display: block;
+      width: 100%;
+      text-align: center;
+      border-width: 1px;
+      border-style: solid;
+      border-radius: 6px;
+      text-decoration: none;
+      padding: 8px 16px;
+      color: black;
 
+      &:hover {
+        color: white;
+      }
+    }
+  }
 }

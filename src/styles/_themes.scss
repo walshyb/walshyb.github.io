@@ -8,8 +8,13 @@
     color: $color;
   }
 
-  // TOOD:
-  // Add border colors, button colors
+  .project-button {
+    border-color: $color;
+
+    &:hover {
+      background-color: darken($color, 10%);
+    }
+  }
 }
 
 main {
