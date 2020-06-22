@@ -36,6 +36,7 @@ export default class Header extends Component {
                 id={ color }
                 className={ 'color ' + color}
                 onClick={ this.colorClick }
+                key={ color }
               >
               </div>;
             }) }

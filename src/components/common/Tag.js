@@ -10,9 +10,9 @@ export default class Tag extends Component {
   render() {
     const { name } = this.props;
 
-    return <div className="tag">
+    return <span className="tag">
       <span className="hashtag">#</span>
       <span className="tag-name">{ name }</span>
-    </div>
+    </span>
   }
 }

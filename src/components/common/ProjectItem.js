@@ -14,7 +14,7 @@ export default class ProjectItem extends Component {
   };
 
   render() {
-    const { name, image, tags, content } = this.props;
+    const { name, image, tags, content, caseStudyUrl, liveSiteUrl } = this.props;
     return (
       <article className="project-item">
         <div className="project-details">
@@ -23,14 +23,20 @@ export default class ProjectItem extends Component {
           <div className="tags">
             {
               tags.map( tag => {
-                return <Tag name={ tag }/>
+                return <Tag name={ tag } key={ tag } />
               })
             }
           </div>
           <p>{ content }</p>
         </div>
         <div className="project-links">
-          <a className="project-button" href="#jim">Case Study</a>
+          { caseStudyUrl ? 
+              <a className="project-button" href={ caseStudyUrl }>Case Study</a> : null 
+          }
+
+          { liveSiteUrl ? 
+              <a className="project-button" href={ liveSiteUrl }>Live Site</a> : null 
+          }
         </div>
       </article>
     );
