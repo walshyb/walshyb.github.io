@@ -7,6 +7,7 @@ export default class ProjectItem extends Component {
   static propTypes = {
     name: PropTypes.string.isRequired,
     image: PropTypes.string.isRequired,
+    imageAlt: PropTypes.string.isRequired,
     tags: PropTypes.arrayOf(PropTypes.string).isRequired,
     content: PropTypes.string.isRequired,
     caseStudyUrl: PropTypes.string,
@@ -14,11 +15,11 @@ export default class ProjectItem extends Component {
   };
 
   render() {
-    const { name, image, tags, content, caseStudyUrl, liveSiteUrl } = this.props;
+    const { name, image, imageAlt, tags, content, caseStudyUrl, liveSiteUrl } = this.props;
     return (
       <article className="project-item">
         <div className="project-details">
-          <img src={ image } alt="" />
+          <img src={ image } alt={ imageAlt } />
           <h2>{ name }</h2>
           <div className="tags">
             {
