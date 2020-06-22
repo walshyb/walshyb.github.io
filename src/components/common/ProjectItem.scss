@@ -3,6 +3,9 @@
   border: 1px solid black;
   background-color: white;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
   &:before {
     border: 1px solid black;
@@ -20,14 +23,18 @@
 
     img {
       min-width: 250px;
+      max-height: 250px;
       width: 100%;
     }
 
     .tags {
       display: flex;
+      flex-wrap: wrap;
 
       .tag {
         margin-right: 24px;
+        padding: 5px;
+        padding-left: 0;
       }
     }
   }
