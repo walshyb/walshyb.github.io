@@ -1,11 +1,17 @@
+@import '~include-media/dist/include-media';
+@import '../../styles/variables';
+
 .project-item {
   max-width: 425px;
   border: 1px solid black;
   background-color: white;
   position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+
+  @include media('>extra-large') {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 
   &:before {
     border: 1px solid black;
