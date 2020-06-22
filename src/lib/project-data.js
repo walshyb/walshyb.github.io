@@ -6,26 +6,25 @@ const projectData = [
   {
       name: 'SUNY New Paltz Library',
       image: NewPaltzLibraryImage,
-      tags: ['wordpress', 'jquery', 'php', 'sass'],
-      content: 'Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. By the same illusion which lifts the horizon of the sea to the level of the spectator on a hillside, the sable cloud beneath was dished out, and the car seemed to float in the middle of an immense dark sphere.',
-      liveSiteUrl: 'https://google.com',
-      caseStudyUrl: 'https://google.com'
+      tags: ['wordpress', 'jquery', 'php', 'sass', 'gulp'],
+      content: 'A rebuild of the SUNY New Paltz library website from scratch to make the site accessible and add the ability to manage content.',
+      liveSiteUrl: 'https://library.newpaltz.edu',
+      caseStudyUrl: 'https://miloaxelrod.com/stl-website.php'
   },
   {
       name: 'Radio Kingston',
       image: RadioKingstonImage,
       tags: ['react', 'es6', 'sass', 'node', 'wordpress'],
-      content: 'Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. By the same illusion which lifts the horizon of the sea to the level of the spectator on a hillside, the sable cloud beneath was dished out, and the car seemed to float in the middle of an immense dark sphere.',
-      liveSiteUrl: 'https://google.com',
-      caseStudyUrl: 'https://google.com'
+      content: 'Radio Kingston is a local radio station in Kingston, NY. Working as a member of the Moonfarmer team, we built a react site as to play on-demand station episodes & podcasts.',
+      liveSiteUrl: 'https://radiokingston.org',
+      caseStudyUrl: 'https://moonfarmer.com/work/radio-kingston'
   },
   {
       name: 'Catskills Conf',
       image: CatskillsConfImage,
-      tags: ['ruby', 'rails', 'react'],
-      content: 'Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. By the same illusion which lifts the horizon of the sea to the level of the spectator on a hillside, the sable cloud beneath was dished out, and the car seemed to float in the middle of an immense dark sphere.',
-      liveSiteUrl: 'https://google.com',
-      caseStudyUrl: 'https://google.com'
+      tags: ['jquery', 'sass', 'handlebars'],
+      content: 'Static site for the annual tech conference Catskills Conf to headline speakers and their talks.',
+      caseStudyUrl: 'https://miloaxelrod.com/catskills-conf.php'
   },
 ];
 
