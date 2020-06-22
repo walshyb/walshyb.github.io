@@ -12,8 +12,15 @@
   .project-item {
     margin-bottom: 40px;
 
+    @include media('<medium') {
+      margin-left: 8px;
+    }
+
     @include media('>small') {
       flex: 1;
+    }
+
+    @include media('>normal') {
       min-width: 425px;
     }
 
