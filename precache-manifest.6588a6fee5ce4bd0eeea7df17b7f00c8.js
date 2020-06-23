@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f74e8d344e5335fc24fc0d484a48b04f",
+    "revision": "8627e388ef8b0d8d9b19651877bb47d8",
     "url": "/index.html"
   },
   {
-    "revision": "638e27af2b671f1745fd",
+    "revision": "477c9ef2264b71b5fc05",
     "url": "/static/css/main.2098dfbf.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.5e2d9421.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "638e27af2b671f1745fd",
-    "url": "/static/js/main.f3b35ab3.chunk.js"
+    "revision": "477c9ef2264b71b5fc05",
+    "url": "/static/js/main.8a9df71b.chunk.js"
   },
   {
     "revision": "eb30babd89e2ecde9a21",
     "url": "/static/js/runtime-main.ebaa091e.js"
   },
   {
-    "revision": "7244b327d17384cd0fec8de00eb871be",
-    "url": "/static/media/catskills-conf.7244b327.png"
+    "revision": "bd6302ffae5324fb43cb0c3a999c7170",
+    "url": "/static/media/catskills-conf.bd6302ff.png"
   },
   {
     "revision": "8a890f7c0246fb59756e6bb77f531179",
@@ -40,12 +40,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/linkedin.619231ff.svg"
   },
   {
-    "revision": "4ca09ab0a7991d775f7b8090f8e30289",
-    "url": "/static/media/new-paltz-library.4ca09ab0.png"
+    "revision": "31b316bf3c04a1d21e3794269ece3542",
+    "url": "/static/media/new-paltz-library.31b316bf.png"
   },
   {
-    "revision": "6a85cd2324199c1f36a1bc7ddf08d9a0",
-    "url": "/static/media/radio-kingston.6a85cd23.png"
+    "revision": "057fe367d7660fe80d21d7e923f96f2b",
+    "url": "/static/media/radio-kingston.057fe367.png"
   },
   {
     "revision": "537ef4c6296184d6edaed1271bfed080",
