@@ -8,7 +8,7 @@ const projectData = [
       image: NewPaltzLibraryImage,
       imageAlt: 'Screenshot of the SUNY New Paltz Library website.',
       tags: ['wordpress', 'jquery', 'php', 'sass', 'gulp'],
-      content: 'A rebuild of the SUNY New Paltz library website from scratch to make the site accessible and add the ability to manage content.',
+      content: 'A rebuild of the SUNY New Paltz library website from scratch to make the site accessible per ADA compliant standards and add the ability to manage content.',
       liveSiteUrl: 'https://library.newpaltz.edu',
       caseStudyUrl: 'https://miloaxelrod.com/stl-website.php'
   },
