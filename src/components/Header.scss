@@ -1,0 +1,41 @@
+.header {
+  margin: 10px;
+  display: flex;
+  width: 100%;
+
+  .content-container {
+    display: flex;
+    width: 100%;
+
+    .pic-container {
+      background-color: white;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 2;
+      min-width: 200px;
+      height: 200px;
+
+      img {
+        width: 95%;
+        border-radius: 50%;
+      }
+    }
+
+    .title-container {
+      margin-left: -100px;
+      background-color: white;
+      z-index: 0;
+      height: 70px;
+      margin-top: 40px;
+      width: 100%;
+
+      h1 {
+        margin-left: 100px;
+        margin-top: -21px;
+        letter-spacing: 10px;
+      }
+    }
+  }
+}
