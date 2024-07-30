@@ -12,6 +12,8 @@ export default function Header() {
         </div>
         <div className="title-container">
           <h1>Hi, I'm Brandon</h1>
+
+          <h2>Software Engineer</h2>
         </div>
       </div>
     </header>
