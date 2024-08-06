@@ -1,0 +1,39 @@
+.intro-box {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  margin: 40px;
+  padding: 20px;
+
+  .intro-img-container {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid black;
+
+    .intro-img {
+      border-radius: 50px;
+    }
+  }
+
+  .intro-content {
+    width: 60%;
+    padding: 20px;
+    border: 4px solid red;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .affiliate-banners {
+      display: flex;
+      justify-content: space-between;
+
+      .affiliate-banner {
+        padding: 0 10px;
+        width: 200%;
+      }
+    }
+  }
+}
