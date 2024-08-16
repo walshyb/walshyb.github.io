@@ -1,3 +1,5 @@
+@import "./_mixins";
+
 @font-face {
   font-family: "StarGirl";
   src: url("./Stargirl.otf");
@@ -8,6 +10,10 @@ body {
   background-image: url(./images/background.png);
   height: 100%;
   width: 100%;
+  font-family: Poppins, Nunito, Helvetica, Arial, sans-serif;
+}
+
+p {
 }
 
 h1,
@@ -19,5 +25,33 @@ h5 {
 }
 
 h1 {
-  font-size: 5em;
+  font-size: 3em;
+
+  @media (width >= $md) {
+    font-size: 3.5em;
+  }
+
+  @media (width >= $lg) {
+    font-size: 4em;
+  }
+
+  @media (width >= $xl) {
+    font-size: 5em;
+  }
+}
+
+h2 {
+  font-size: 1.5em;
+
+  @media (width >= $md) {
+    font-size: 2em;
+  }
+
+  @media (width >= $lg) {
+    font-size: 3em;
+  }
+
+  @media (width >= $xl) {
+    font-size: 3.2em;
+  }
 }
