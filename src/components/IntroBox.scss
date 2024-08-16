@@ -1,9 +1,26 @@
 .intro-box {
   display: flex;
   justify-content: space-around;
-  background-color: white;
   margin: 40px;
   padding: 20px;
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    // TODO:
+    // add nice background :)
+    //background: url("../images/gingham_plaid_background.png");
+    background-color: white;
+    opacity: 0.8;
+    z-index: -1;
+  }
 
   .intro-img-container {
     width: 40%;

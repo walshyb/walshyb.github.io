@@ -1,4 +1,5 @@
 import "./IntroBox.scss";
+import PlaidBg from "../images/gingham_plaid_background.png";
 
 export default function IntroBox() {
   return (
