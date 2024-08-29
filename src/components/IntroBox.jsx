@@ -1,5 +1,6 @@
 import "./IntroBox.scss";
-import PlaidBg from "../images/gingham_plaid_background.png";
+import WinkImage from "../images/wink.png";
+import GithubImage from "../images/affiliate-github.png";
 
 export default function IntroBox() {
   return (
@@ -9,15 +10,33 @@ export default function IntroBox() {
       </div>
       <div className="intro-content">
         <div className="intro-text">
-          <p>Howdy!</p>
-          <p>Some stuff</p>
-          <p>Or jump down to other stuff</p>
+          {/* TODO: turn these spans into tags that maybe filter by or bring up relevant projects? */}
+          <p>
+            I'm a software engineer based out of NYC! I have 8+ years working in
+            web development across the stack. My current [software-related]
+            interests are <span>low-level languages</span>,{" "}
+            <span>game development</span>, and <span>backend technologies</span>
+            .
+          </p>
+          <p>Current status: open to work!</p>
         </div>
 
-        <div className="affiliate-banners">
-          <img className="affiliate-banner" src="https://placehold.co/81x33" />
-          <img className="affiliate-banner" src="https://placehold.co/81x33" />
-          <img className="affiliate-banner" src="https://placehold.co/81x33" />
+        <div className="affiliate-links">
+          <h3>
+            Some quick links{" "}
+            <img src={WinkImage} className="wink" alt="a wink ;)" />
+          </h3>
+          <div className="affiliate-banners">
+            <img className="affiliate-banner" src={GithubImage} />
+            <img
+              className="affiliate-banner"
+              src="https://placehold.co/81x33"
+            />
+            <img
+              className="affiliate-banner"
+              src="https://placehold.co/81x33"
+            />
+          </div>
         </div>
       </div>
     </section>
