@@ -11,6 +11,7 @@ export default function IntroBox() {
       <div className="intro-content">
         <div className="intro-text">
           {/* TODO: turn these spans into tags that maybe filter by or bring up relevant projects? */}
+          {/* TODO: make spans bold */}
           <p>
             I'm a software engineer based out of NYC! I have 8+ years working in
             web development across the stack. My current [software-related]
@@ -18,7 +19,10 @@ export default function IntroBox() {
             <span>game development</span>, and <span>backend technologies</span>
             .
           </p>
-          <p>Current status: open to work!</p>
+          <p>
+            {/* took the lazy way out of bolding this */}
+            Current status: <b>open to work!</b>
+          </p>
         </div>
 
         <div className="affiliate-links">
