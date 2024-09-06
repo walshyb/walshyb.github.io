@@ -3,7 +3,7 @@ import { useState } from "react";
 import LightsOut from "../images/lights-out.png";
 
 export default function Modal() {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
 
   return (
     <div

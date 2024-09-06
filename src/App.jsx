@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import IntroBox from "./components/IntroBox";
 import Projects from "./components/Projects";
 import Modal from "./components/Modal";
+import About from "./components/About";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <IntroBox />
       <Projects />
+      <About />
       <Modal />
     </div>
   );

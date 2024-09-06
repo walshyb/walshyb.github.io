@@ -32,6 +32,7 @@ export default function Projects() {
             <h3>Catskills Conf</h3>
             <p>My Game Boy puzzle game written in assembly</p>
             <div className="tags">#assembly</div>
+            Read More
           </div>
         </div>
 
