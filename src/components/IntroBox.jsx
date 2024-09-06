@@ -20,6 +20,10 @@ export default function IntroBox() {
             .
           </p>
           <p>
+            My most recent projects are a puzzle game made for the Game Boy, and
+            a browser-based tilemap editor.
+          </p>
+          <p>
             {/* took the lazy way out of bolding this */}
             Current status: <b>open to work!</b>
           </p>
