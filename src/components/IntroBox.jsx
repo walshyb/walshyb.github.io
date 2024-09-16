@@ -35,14 +35,25 @@ export default function IntroBox() {
             <img src={WinkImage} className="wink" alt="a wink ;)" />
           </h3>
           <div className="affiliate-banners">
-            <img className="affiliate-banner" src={GithubImage} />
             <img
               className="affiliate-banner"
-              src="https://placehold.co/81x33"
+              src={GithubImage}
+              alt="Out link to my Github profile"
             />
             <img
               className="affiliate-banner"
               src="https://placehold.co/81x33"
+              alt="Out link to my LinkedIn profile"
+            />
+            <img
+              className="affiliate-banner"
+              src="https://placehold.co/81x33"
+              alt="Out link to my PDF Resume"
+            />
+            <img
+              className="affiliate-banner"
+              src="https://placehold.co/81x33"
+              alt="Anchor link to my About section. Skips my projects"
             />
           </div>
         </div>
