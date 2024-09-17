@@ -4,41 +4,12 @@
 
   .projects {
     background-color: white;
-    border: 2px solid black;
+    //border: 2px solid black;
     display: flex;
     align-content: flex-start;
     flex-wrap: wrap;
     justify-content: space-around;
     background-image: url("../images/gingham_plaid_background2.png");
     background-size: 350px;
-
-    .project {
-      padding: 20px 0;
-      border: 2px solid red;
-      width: 45%;
-      display: flex;
-      max-width: 450px;
-
-      .intro-img {
-        //width: 200px;
-        width: 200px;
-        height: 200px;
-        border-radius: 25px;
-        border: 2px solid blue;
-        background-color: white;
-      }
-
-      .project-details {
-        margin-left: 10px;
-        background-color: white;
-        background-color: rgba(255, 188, 160);
-
-        h3 {
-          font-family: Poppins;
-          margin-top: 0;
-          font-size: 15pt;
-        }
-      }
-    }
   }
 }
