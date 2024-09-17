@@ -33,6 +33,18 @@ export const projects = {
       "A rebuild of the SUNY New Paltz library website from scratch to make the site accessible per ADA compliant standards and add the ability to manage content",
     tags: ["wordpress", "php", "jquery", "gulp"],
   },
+  latex: {
+    name: "Catppuccin LaTeX Port",
+    imgSrc: LightsOut,
+    description: "",
+    tags: ["LaTeX"],
+  },
+  dsa: {
+    name: "DSA Study Materials",
+    imgSrc: LightsOut,
+    description: "",
+    tags: ["algorithms", "datastructures", "LaTeX"],
+  },
   cats: {
     name: "Catskills Conf",
     imgSrc: CatskillsConf,
@@ -40,23 +52,11 @@ export const projects = {
       "Static site for the annual tech conference Catskills Conf to headline speakers and their talks.",
     tags: ["jquery", "sass", "handlebars"],
   },
-  latex: {
-    name: "Catppuccin LaTeX Port",
-    imgSrc: LightsOut,
-    description: "",
-    tags: ["LaTeX"],
-  },
   radio: {
     name: "Radio Kingston",
     imgSrc: LightsOut,
     description:
       "Radio Kingston is a local radio station in Kingston, NY. Working as a member of the Moonfarmer team, we built a react site as to play on-demand station episodes & podcasts.",
     tags: ["react", "node", "wordpress", "ssr"],
-  },
-  dsa: {
-    name: "DSA Study Materials",
-    imgSrc: LightsOut,
-    description: "",
-    tags: ["algorithms", "datastructures", "LaTeX"],
   },
 };
