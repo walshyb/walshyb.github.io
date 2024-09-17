@@ -1,27 +1,33 @@
 import "./Modal.scss";
-import { useState } from "react";
+import { projects } from "./projectData";
 import LightsOut from "../images/lights-out.png";
 
-export default function Modal() {
-  const [open, setOpen] = useState(false);
+/**
+ * @params {bool} projectId - set modal to visible if present
+ * @params {function} openModal
+ */
+export default function Modal({ projectId, openModal }) {
+  const closeModal = () => {
+    openModal("");
+  };
+
+  // don't render modal if no project ID is present
+  if (!projectId) return null;
+
+  const { name, imgSrc, description, tags } = projects[projectId];
 
   return (
-    <div
-      className="modal-container"
-      style={{
-        visibility: open ? "visible" : "hidden",
-      }}
-    >
+    <div className="modal-container">
       {/* Need container div for draggable */}
       <div className="modal">
         {/* Draggable handle */}
         <div className="modal-header">
-          <div className="close-button"></div>
+          <div className="close-button" onClick={closeModal}></div>
         </div>
         <div className="modal-content">
-          <img src={LightsOut} className="modal-headline-image" />
+          <img src={imgSrc} className="modal-headline-image" />
           <div className="modal-details">
-            <h3>Project Name</h3>
+            <h3>{name}</h3>
             <div>Uh tags here? #tech</div>
             <p>Some GOOD lorem ipsum</p>
           </div>

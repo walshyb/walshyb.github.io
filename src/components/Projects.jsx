@@ -2,19 +2,24 @@ import "./Projects.scss";
 import Project from "./Project";
 import { projects } from "./projectData";
 
-export default function Projects() {
+/**
+ * @params {function} openModal
+ */
+export default function Projects({ openModal }) {
   return (
     <section className="projects-container">
       <h2>Projects</h2>
 
       <div className="projects">
-        {projects.map((project) => (
+        {Object.entries(projects).map(([id, project]) => (
           <Project
-            key={project.name}
+            key={id}
+            id={id}
             name={project.name}
             imgSrc={project.imgSrc}
             description={project.description}
             tags={project.tags}
+            openModal={openModal}
           />
         ))}
       </div>
