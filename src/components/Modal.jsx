@@ -14,7 +14,7 @@ export default function Modal({ projectId, openModal }) {
   // don't render modal if no project ID is present
   if (!projectId) return null;
 
-  const { name, imgSrc, description, tags } = projects[projectId];
+  const { name, imgSrc, content, tags } = projects[projectId];
 
   return (
     <div className="modal-container">
@@ -28,8 +28,7 @@ export default function Modal({ projectId, openModal }) {
           <img src={imgSrc} className="modal-headline-image" />
           <div className="modal-details">
             <h3>{name}</h3>
-            <div>Uh tags here? #tech</div>
-            <p>Some GOOD lorem ipsum</p>
+            {content}
           </div>
         </div>
         <div className="modal-project-images">Images go here</div>

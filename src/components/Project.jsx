@@ -13,23 +13,26 @@ export default function Project({
   name,
   description,
   tags,
+  githubLink,
+  caseStudyLink,
+  liveSiteLink,
   openModal,
 }) {
+  const handleClick = () => {
+    openModal(id);
+  };
   return (
     <div className="project">
       <div className="project-img">
         <img className="intro-img" src={imgSrc} />
       </div>
       <div className="project-details">
-        <h3
-          onClick={() => {
-            openModal(id);
-          }}
-        >
-          {name}
-        </h3>
+        <h3 onClick={handleClick}>{name}</h3>
         <p>{description}</p>
-        <div className="tags">{tags}</div>
+        <button onClick={handleClick}>Read More</button>
+        {githubLink && <a href="">Github</a>}
+        {liveSiteLink && <a href="">Live Site</a>}
+        {caseStudyLink && <a href="">Case Study</a>}
       </div>
     </div>
   );

@@ -19,6 +19,9 @@ export default function Projects({ openModal }) {
             imgSrc={project.imgSrc}
             description={project.description}
             tags={project.tags}
+            githubLink={project.githubLink}
+            caseStudyLink={project.caseStudyLink}
+            liveSiteLink={project.liveSiteLink}
             openModal={openModal}
           />
         ))}
