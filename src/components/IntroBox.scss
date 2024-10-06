@@ -1,9 +1,20 @@
+@import "../_mixins";
+
 .intro-box {
   display: flex;
   justify-content: space-around;
   overflow: hidden;
   position: relative;
   z-index: 0;
+  flex-direction: column;
+
+  @media (width < $md) {
+    margin-top: 80px;
+  }
+
+  @media (width >= $md) {
+    flex-direction: row;
+  }
 
   &::before {
     content: "";
@@ -21,11 +32,14 @@
   }
 
   .intro-img-container {
-    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
     //border: 4px solid black;
+
+    @media (width >= $md) {
+      width: 40%;
+    }
 
     .intro-img {
       border-radius: 50px;
