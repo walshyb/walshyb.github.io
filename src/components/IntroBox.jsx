@@ -1,6 +1,7 @@
 import "./IntroBox.scss";
 import WinkImage from "../images/wink.png";
 import GithubImage from "../images/affiliate-github.png";
+import Stars from "../images/stars.gif";
 
 export default function IntroBox() {
   return (
@@ -26,6 +27,10 @@ export default function IntroBox() {
           <p>
             {/* took the lazy way out of bolding this */}
             Current status: <b>open to work!</b>
+          </p>
+          <p>
+            (This site is still in development! Not the most mobile friendly!)
+            <img className="stars" src={Stars} />
           </p>
         </div>
 
