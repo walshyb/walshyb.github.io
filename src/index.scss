@@ -5,6 +5,12 @@
   src: url("./Stargirl.otf");
 }
 
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   margin: 0;
   background-image: url(./images/background.png);
