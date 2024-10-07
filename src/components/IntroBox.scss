@@ -87,11 +87,24 @@
 
     .affiliate-banners {
       display: flex;
-      justify-content: space-between;
+      flex-direction: column;
+      align-items: center;
+
+      @media (width >= $md) {
+        flex-direction: row;
+        justify-content: space-between;
+      }
 
       .affiliate-banner {
         padding: 0 10px;
-        width: 200%;
+        width: 80%;
+        margin-bottom: 15px;
+        max-width: 350px;
+
+        @media (width >= $md) {
+          width: 200%;
+          margin-bottom: 0;
+        }
       }
     }
   }
