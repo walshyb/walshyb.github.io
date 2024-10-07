@@ -30,6 +30,8 @@ export default function IntroBox() {
           </p>
           <p>
             (This site is still in development! Not the most mobile friendly!)
+            <br />
+            <br />
             <img className="stars" src={Stars} />
           </p>
         </div>

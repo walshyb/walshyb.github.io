@@ -1,8 +1,18 @@
+@import "./_mixins";
+
 .app-container {
-  margin: 20px;
+  margin: 5px;
   //background-image: url(./images/gingham_plaid_background3.png);
   background-color: rgb(255, 190, 164, 0.8); // not horrible
   height: 100%;
   display: flex;
   flex-direction: column;
+
+  @media (width >= $sm) {
+    margin: 10px;
+  }
+
+  @media (width >= $md) {
+    margin: 20px;
+  }
 }
