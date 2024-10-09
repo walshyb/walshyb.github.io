@@ -45,7 +45,7 @@ export const projects = {
     name: "Catppuccin LaTeX Port",
     imgSrc: Catppuccin,
     description:
-      "The official port and Cattpuccin style package implementation for LaTeX projects.",
+      "The official port and style package implementation for LaTeX projects.",
     tags: ["LaTeX"],
     readMore: false,
     githubLink: "https://github.com/catppuccin/latex",
@@ -78,5 +78,6 @@ export const projects = {
     description:
       "Radio Kingston is a local radio station in Kingston, NY. Working as a member of the Moonfarmer team, we built a react site as to play on-demand station episodes & podcasts.",
     tags: ["react", "node", "wordpress", "ssr"],
+    liveSiteLink: "https://radiokingston.org",
   },
 };
