@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.7d90c890.css",
+    "main.css": "/static/css/main.bec8e591.css",
     "main.js": "/static/js/main.666d6bd5.js",
     "static/js/453.2044cb14.chunk.js": "/static/js/453.2044cb14.chunk.js",
     "static/media/Stargirl.otf": "/static/media/Stargirl.f722d6316b02ea3b4a72.otf",
@@ -12,13 +12,15 @@
     "static/media/dsa.png": "/static/media/dsa.9f0d7bcfdbf9061e42fa.png",
     "static/media/saffron.png": "/static/media/saffron.182e60d79f5d93103c62.png",
     "static/media/anya.gif": "/static/media/anya.7414e1611c724b72ee96.gif",
+    "static/media/Stargirl.woff": "/static/media/Stargirl.5c615516d63ce791734e.woff",
+    "static/media/Stargirl.woff2": "/static/media/Stargirl.bbbf4f3c542a142ef9a2.woff2",
     "index.html": "/index.html",
-    "main.7d90c890.css.map": "/static/css/main.7d90c890.css.map",
+    "main.bec8e591.css.map": "/static/css/main.bec8e591.css.map",
     "main.666d6bd5.js.map": "/static/js/main.666d6bd5.js.map",
     "453.2044cb14.chunk.js.map": "/static/js/453.2044cb14.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d90c890.css",
+    "static/css/main.bec8e591.css",
     "static/js/main.666d6bd5.js"
   ]
 }
