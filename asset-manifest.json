@@ -1,29 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.99b15499.chunk.css",
-    "main.js": "/static/js/main.29a7b9a1.chunk.js",
-    "main.js.map": "/static/js/main.29a7b9a1.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ebaa091e.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ebaa091e.js.map",
-    "static/js/2.745f9cc0.chunk.js": "/static/js/2.745f9cc0.chunk.js",
-    "static/js/2.745f9cc0.chunk.js.map": "/static/js/2.745f9cc0.chunk.js.map",
+    "main.css": "/static/css/main.ae663278.css",
+    "main.js": "/static/js/main.666d6bd5.js",
+    "static/js/453.2044cb14.chunk.js": "/static/js/453.2044cb14.chunk.js",
+    "static/media/Stargirl.otf": "/static/media/Stargirl.f722d6316b02ea3b4a72.otf",
+    "static/media/radio.png": "/static/media/radio.90298bb9a5a4f63f1589.png",
+    "static/media/new-paltz-library.png": "/static/media/new-paltz-library.d8efa359c6a5a7c38ed8.png",
+    "static/media/catskills-conf.png": "/static/media/catskills-conf.3ddae118ed7a58bef388.png",
+    "static/media/poke.png": "/static/media/poke.ecef479c8e43d31b3556.png",
+    "static/media/port.webp": "/static/media/port.fa4f48ca7239d5c9a49b.webp",
+    "static/media/dsa.png": "/static/media/dsa.9f0d7bcfdbf9061e42fa.png",
+    "static/media/saffron.png": "/static/media/saffron.182e60d79f5d93103c62.png",
+    "static/media/anya.gif": "/static/media/anya.7414e1611c724b72ee96.gif",
     "index.html": "/index.html",
-    "precache-manifest.2679bc7c0b3dfa82a8c0fe790aa8c574.js": "/precache-manifest.2679bc7c0b3dfa82a8c0fe790aa8c574.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.99b15499.chunk.css.map": "/static/css/main.99b15499.chunk.css.map",
-    "static/js/2.745f9cc0.chunk.js.LICENSE.txt": "/static/js/2.745f9cc0.chunk.js.LICENSE.txt",
-    "static/media/catskills-conf.png": "/static/media/catskills-conf.bd6302ff.png",
-    "static/media/email.svg": "/static/media/email.8a890f7c.svg",
-    "static/media/github.svg": "/static/media/github.617870e4.svg",
-    "static/media/linkedin.svg": "/static/media/linkedin.619231ff.svg",
-    "static/media/new-paltz-library.png": "/static/media/new-paltz-library.31b316bf.png",
-    "static/media/radio-kingston.png": "/static/media/radio-kingston.057fe367.png",
-    "static/media/resume.svg": "/static/media/resume.537ef4c6.svg"
+    "main.ae663278.css.map": "/static/css/main.ae663278.css.map",
+    "main.666d6bd5.js.map": "/static/js/main.666d6bd5.js.map",
+    "453.2044cb14.chunk.js.map": "/static/js/453.2044cb14.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.ebaa091e.js",
-    "static/js/2.745f9cc0.chunk.js",
-    "static/css/main.99b15499.chunk.css",
-    "static/js/main.29a7b9a1.chunk.js"
+    "static/css/main.ae663278.css",
+    "static/js/main.666d6bd5.js"
   ]
 }
