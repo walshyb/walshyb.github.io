@@ -29,7 +29,9 @@ export default function IntroBox() {
             Current status: <b>open to work!</b>
           </p>
           <p>
-            (This site is still in development! Not the most mobile friendly!)
+            (This site is still in development! Not the most mobile friendly!
+            And (slowly) working on higher fidelity / appropriately-sized
+            assets!)
             <br />
             <br />
             <img className="stars" src={Stars} />

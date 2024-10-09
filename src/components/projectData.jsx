@@ -1,11 +1,15 @@
 import LightsOut from "../images/lights-out.png";
 import CatskillsConf from "../images/catskills-conf.png";
 import NewPaltz from "../images/new-paltz-library.png";
+import Map from "../images/saffron.png";
+import Catppuccin from "../images/port.webp";
+import Radio from "../images/radio.png";
+import DSA from "../images/dsa.png";
 
 export const projects = {
   map: {
     name: "Polished Map Web",
-    imgSrc: LightsOut,
+    imgSrc: Map,
     description:
       "A map and tileset editor for pret's gen1 and gen2 Pokemon disassemblies, Polished Crystal, and derived projects. This is a web implementation written in C++, compiled into wasm, and JS",
     githubLink: "https://github.com/walshyb/polished-map-web",
@@ -35,13 +39,13 @@ export const projects = {
   },
   latex: {
     name: "Catppuccin LaTeX Port",
-    imgSrc: LightsOut,
+    imgSrc: Catppuccin,
     description: "",
     tags: ["LaTeX"],
   },
   dsa: {
     name: "DSA Study Materials",
-    imgSrc: LightsOut,
+    imgSrc: DSA,
     description: "",
     tags: ["algorithms", "datastructures", "LaTeX"],
   },
@@ -54,7 +58,7 @@ export const projects = {
   },
   radio: {
     name: "Radio Kingston",
-    imgSrc: LightsOut,
+    imgSrc: Radio,
     description:
       "Radio Kingston is a local radio station in Kingston, NY. Working as a member of the Moonfarmer team, we built a react site as to play on-demand station episodes & podcasts.",
     tags: ["react", "node", "wordpress", "ssr"],

@@ -1,9 +1,20 @@
+@import "../_mixins";
+
 .project {
   padding: 20px 0;
   //border: 2px solid red;
   width: 45%;
   display: flex;
   max-width: 450px;
+
+  @media (width < $md) {
+    width: 90%;
+  }
+
+  @media (width < $lg) {
+    align-items: center;
+    flex-direction: column;
+  }
 
   .intro-img {
     //width: 200px;
@@ -19,6 +30,11 @@
     background-color: white;
     background-color: rgba(251, 215, 199);
     padding: 10px;
+
+    @media (width < $md) {
+      width: 100%;
+      min-height: 50px;
+    }
 
     h3 {
       font-family: Poppins;
