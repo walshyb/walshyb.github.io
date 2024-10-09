@@ -18,10 +18,12 @@ export const projects = {
   lights: {
     name: "Lights Out GB",
     imgSrc: LightsOut,
-    description: "My Game Boy puzzle game written in assembly",
-    tags: ["assembly"],
+    description:
+      "My Game Boy puzzle game written in assembly! Still in progress, but I'm having a lot of fun working with assembly, working directly with hardware, and making (simple) pixel art! This project is my foray into game development!",
+    tags: ["assembly", "game development"],
     caseStudyLink: "",
     liveSiteLink: "",
+    readMore: false,
     githubLink: "https://github.com/walshyb/lights-out-gb",
     content: (
       <>
@@ -36,29 +38,43 @@ export const projects = {
     description:
       "A rebuild of the SUNY New Paltz library website from scratch to make the site accessible per ADA compliant standards and add the ability to manage content",
     tags: ["wordpress", "php", "jquery", "gulp"],
+    readMore: false,
+    liveSiteLink: "https://library.newpaltz.edu",
   },
   latex: {
     name: "Catppuccin LaTeX Port",
     imgSrc: Catppuccin,
-    description: "",
+    description:
+      "The official port and Cattpuccin style package implementation for LaTeX projects.",
     tags: ["LaTeX"],
+    readMore: false,
+    githubLink: "https://github.com/catppuccin/latex",
   },
   dsa: {
     name: "DSA Study Materials",
     imgSrc: DSA,
-    description: "",
+    content:
+      "Everytime I want to study for technical interviews, I always have to remake notes and track down common questions or patterns.",
+    description:
+      "My notes to help me, more easily, study for technical interviews. Neatly organized by being written with LaTeX.",
     tags: ["algorithms", "datastructures", "LaTeX"],
+    readMore: false,
+    githubLink: "https://github.com/walshyb/datastructures-and-algorithms",
   },
   cats: {
     name: "Catskills Conf",
     imgSrc: CatskillsConf,
+    readMore: false,
     description:
-      "Static site for the annual tech conference Catskills Conf to headline speakers and their talks.",
+      "Static site for the tech conference, Catskills Conf, to headline speakers and their talks.",
     tags: ["jquery", "sass", "handlebars"],
+    caseStudyLink:
+      "https://www.behance.net/gallery/52536931/Catskills-Conf-Brand-Website-Merch",
   },
   radio: {
     name: "Radio Kingston",
     imgSrc: Radio,
+    readMore: false,
     description:
       "Radio Kingston is a local radio station in Kingston, NY. Working as a member of the Moonfarmer team, we built a react site as to play on-demand station episodes & podcasts.",
     tags: ["react", "node", "wordpress", "ssr"],

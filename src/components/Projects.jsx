@@ -20,6 +20,7 @@ export default function Projects({ openModal }) {
             description={project.description}
             tags={project.tags}
             githubLink={project.githubLink}
+            readMore={project.readMore}
             caseStudyLink={project.caseStudyLink}
             liveSiteLink={project.liveSiteLink}
             openModal={openModal}

@@ -14,6 +14,7 @@ export default function Project({
   description,
   tags,
   githubLink,
+  readMore,
   caseStudyLink,
   liveSiteLink,
   openModal,
@@ -29,10 +30,22 @@ export default function Project({
       <div className="project-details">
         <h3 onClick={handleClick}>{name}</h3>
         <p>{description}</p>
-        <button onClick={handleClick}>Read More</button>
-        {githubLink && <a href="">Github</a>}
-        {liveSiteLink && <a href="">Live Site</a>}
-        {caseStudyLink && <a href="">Case Study</a>}
+        {readMore && <button onClick={handleClick}>Read More</button>}
+        {githubLink && (
+          <a href={githubLink} target="_blank">
+            Github
+          </a>
+        )}
+        {liveSiteLink && (
+          <a href={liveSiteLink} target="_blank">
+            Live Site
+          </a>
+        )}
+        {caseStudyLink && (
+          <a href={caseStudyLink} target="_blank">
+            Case Study
+          </a>
+        )}
       </div>
     </div>
   );
