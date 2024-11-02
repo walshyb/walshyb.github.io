@@ -1,7 +1,7 @@
 @import "./_mixins";
 
 @font-face {
-  font-family: "StarGirl";
+  font-family: "StarGirls";
   src: url("./Stargirl.otf") format("opentype");
 }
 
@@ -32,23 +32,42 @@ section {
 p {
 }
 
+@font-palette-values --myPalette {
+  font-family: "Honk";
+  base-palette: 5;
+  override-colors:
+    0 black,
+    1 black,
+    2 #f9868f,
+    3 #f9868f,
+    4 #f9868f,
+    5 white,
+    6 #f9bd54,
+    7 #f9bd54,
+    8 #f9bd54,
+    9 #f9bd54,
+    10 #f9bd54;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5 {
-  font-family: "StarGirl", Poppins, Helvetica, Arial, sans-serif;
+  font-family: "Honk", Poppins, Helvetica, Arial, sans-serif;
+  font-palette: --myPalette;
+  letter-spacing: 3px;
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 3.5em;
 
   @media (width >= $md) {
-    font-size: 3.5em;
+    font-size: 3.8em;
   }
 
   @media (width >= $lg) {
-    font-size: 4em;
+    font-size: 4.5em;
   }
 
   @media (width >= $xl) {
@@ -57,17 +76,17 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 2em;
 
   @media (width >= $md) {
-    font-size: 2em;
+    font-size: 2.5em;
   }
 
   @media (width >= $lg) {
-    font-size: 3em;
+    font-size: 3.5em;
   }
 
   @media (width >= $xl) {
-    font-size: 3.2em;
+    font-size: 3.8em;
   }
 }
