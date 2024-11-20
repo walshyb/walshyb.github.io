@@ -60,14 +60,14 @@ h5 {
 }
 
 h1 {
-  font-size: 3.5em;
+  font-size: 3.2em;
 
   @media (width >= $md) {
-    font-size: 3.8em;
+    font-size: 3.5em;
   }
 
   @media (width >= $lg) {
-    font-size: 4.5em;
+    font-size: 3.8em;
   }
 
   @media (width >= $xl) {

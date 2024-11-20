@@ -1,6 +1,7 @@
 import "./IntroBox.scss";
 import WinkImage from "../images/wink.png";
 import GithubImage from "../images/affiliate-github.png";
+import ResumeImage from "../images/affiliate-resume.png";
 import Stars from "../images/stars.gif";
 
 export default function IntroBox() {
@@ -51,17 +52,17 @@ export default function IntroBox() {
             />
             <img
               className="affiliate-banner"
-              src="https://placehold.co/81x33"
+              src="https://placehold.co/88x31"
               alt="Out link to my LinkedIn profile"
             />
             <img
               className="affiliate-banner"
-              src="https://placehold.co/81x33"
+              src={ResumeImage}
               alt="Out link to my PDF Resume"
             />
             <img
               className="affiliate-banner"
-              src="https://placehold.co/81x33"
+              src="https://placehold.co/88x31"
               alt="Anchor link to my About section. Skips my projects"
             />
           </div>

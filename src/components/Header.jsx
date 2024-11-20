@@ -1,6 +1,7 @@
 import "./Header.scss";
 import Wanderlust from "./Wanderlust";
 import Anya from "../images/anya.gif";
+import HeaderText from "./HeaderText";
 
 export default function Header() {
   return (
@@ -14,8 +15,12 @@ export default function Header() {
           />
         </div>
         <div className="title-container">
-          <h1>Hi, I'm Brandon</h1>
-          <h2>Software Engineer</h2>
+          <h1>
+            <HeaderText text="Hi, I'm Brandon" />
+          </h1>
+          <h2>
+            <HeaderText text="Software Engineer" />
+          </h2>
         </div>
       </div>
     </header>
