@@ -25,10 +25,17 @@ export default function IntroBox() {
             My most recent projects are a puzzle game made for the Game Boy, and
             a browser-based tilemap editor.
           </p>
+
+          <p>
+            Continue scrolling to check out some of my selected projects, or{" "}
+            <a href="#about">skip down</a> to read more about myself.
+          </p>
+
           <p>
             {/* took the lazy way out of bolding this */}
             Current status: <b>open to work!</b>
           </p>
+
           <p>
             (This site is still in development! Not the most mobile friendly!
             And (slowly) working on higher fidelity / appropriately-sized

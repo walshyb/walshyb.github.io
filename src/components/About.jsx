@@ -3,7 +3,7 @@ import WinkImage from "../images/wink.png";
 
 export default function About() {
   return (
-    <section className="about">
+    <section id="about" className="about">
       <h2>
         About Me <img src={WinkImage} className="wink" alt="a wink ;)" />{" "}
       </h2>
