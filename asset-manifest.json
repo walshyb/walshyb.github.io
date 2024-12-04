@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.532e7201.css",
-    "main.js": "/static/js/main.7bbe97e6.js",
+    "main.css": "/static/css/main.a3336330.css",
+    "main.js": "/static/js/main.38683ba9.js",
     "static/js/453.2044cb14.chunk.js": "/static/js/453.2044cb14.chunk.js",
     "static/media/Stargirl.otf": "/static/media/Stargirl.dfd19a3a46d79ff5f73c.otf",
     "static/media/radio.png": "/static/media/radio.90298bb9a5a4f63f1589.png",
@@ -11,14 +11,16 @@
     "static/media/port.webp": "/static/media/port.fa4f48ca7239d5c9a49b.webp",
     "static/media/dsa.png": "/static/media/dsa.9f0d7bcfdbf9061e42fa.png",
     "static/media/saffron.png": "/static/media/saffron.182e60d79f5d93103c62.png",
+    "static/media/affiliate-github.png": "/static/media/affiliate-github.e089c96d5c5f6fdeca0c.png",
+    "static/media/affiliate-resume.png": "/static/media/affiliate-resume.26b94c2e38a40092baf6.png",
     "static/media/anya.gif": "/static/media/anya.7414e1611c724b72ee96.gif",
     "index.html": "/index.html",
-    "main.532e7201.css.map": "/static/css/main.532e7201.css.map",
-    "main.7bbe97e6.js.map": "/static/js/main.7bbe97e6.js.map",
+    "main.a3336330.css.map": "/static/css/main.a3336330.css.map",
+    "main.38683ba9.js.map": "/static/js/main.38683ba9.js.map",
     "453.2044cb14.chunk.js.map": "/static/js/453.2044cb14.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.532e7201.css",
-    "static/js/main.7bbe97e6.js"
+    "static/css/main.a3336330.css",
+    "static/js/main.38683ba9.js"
   ]
 }
