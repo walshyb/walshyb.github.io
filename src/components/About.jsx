@@ -84,15 +84,72 @@ export default function About() {
 
       <h3>Interests</h3>
 
-      <p>
-        interests: music, pixel art, low level languages, coffee, the old
-        internet, personal sites, community
-      </p>
-      <p>i'm a volunteer coach for my old high school's robotics club</p>
+      <p>I have many interests that I hop between!!</p>
 
-      <p>Open source stuff</p>
+      <p>
+        <strong>Robotics:</strong> Robotics is a fairly new venture for me! As
+        of 2023, I have been a volunteer mentor / coach for my old high school's
+        robotics team. Prior to taking on this role, I knew nearly nothing of
+        the sort, so I had to learn quick. With another coach, we work together
+        to assist our students in building a robot every year in prepartion for
+        competitions, held by{" "}
+        <a href="https://www.firstinspires.org/" target="_blank">
+          <i>First</i>
+        </a>
+        . There's more to robotics than actually just building a robot,
+        surprisingly! On the technical side, there's research, component and
+        part design, stylistic design, coding (driver and autonomous programs),
+        building, testing, and iterating. But as a team we also need to
+        consider: budget, finance sources, collaborating, advertising, learning
+        + teaching, documentation, and room organizing. I personally find this a
+        lot of fun!
+      </p>
+
+      <p>
+        <strong>Music:</strong> I love playing music! I learned flute in high
+        school so I can join the marching band, which I loved all 4 years I did
+        it. I continued to play flute in orchestra and symphony in college.
+        During that time, I also taught myself guitar and took a piano class. I
+        also was in choir throughout high school, and took gospel choir for a
+        couple years in college as well!
+      </p>
+
+      <p>
+        <strong>Coffee:</strong> I love coffee! All kinds. But I typically get
+        myself iced lattes when I go out. I picked up working at a coffee shop
+        in New Paltz, NY for a summer just for fun because I enjoy coffee (and
+        relevant shops) so much. I want to work at another one on the side
+        again! Or maybe even open up my own one day 🤔
+      </p>
+
+      <p>
+        <strong>Pixel Art:</strong> Though I am bad at it, I have an
+        appreciation for pixel art! I've been steadily learning and practicing
+        on Procreate and Aesprite.
+      </p>
+
+      <p>
+        <strong>Conferences:</strong> I love attending conferences, but I love
+        volunteering at them even more! I feel that volunteering at conferences
+        allows you to engage with the people and conference as a whole on a
+        deeper level. In the past, I have volunteered at the UI/UX conference
+        Smashing Conf, and typography conference Typographics. In the Hudson
+        Valley, I was a co-organizer for Catskills Conf, the 3-day yearly
+        conference that conjoins technology and nature, spawned from the Hudson
+        Valley Tech Meetup. For Catskills Conf, I'd help work on the websites,
+        manage attendee lists, communicate with speakers, assist with lodging,
+        and do general tasks throughout the conference.
+      </p>
+
+      <p>
+        <strong>Open Source:</strong> I enjoy contributing to open source
+        projects when I can! I find this is a great way to stay sharp with
+        technologies I may not be using regularly, as well as contributing to
+        projects that I believe in or support!
+      </p>
 
       <h3>About this Site!!</h3>
+      <p>interests: the old internet, personal sites, community</p>
     </section>
   );
 }
