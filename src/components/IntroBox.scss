@@ -70,12 +70,12 @@
     }
 
     h3 {
-      max-width: 250px;
       background: white;
       font-size: 20pt;
       padding: 10px;
       display: block;
       margin-bottom: 10px;
+      width: fit-content;
 
       .wink {
         margin-bottom: -2px;
@@ -97,6 +97,12 @@
         width: 80%;
         margin-bottom: 15px;
         max-width: 350px;
+        min-width: 88px;
+        min-height: 31px;
+
+        img {
+          width: 100%;
+        }
 
         @media (width >= $md) {
           width: 200%;
