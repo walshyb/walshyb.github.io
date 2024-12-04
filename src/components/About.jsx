@@ -4,12 +4,9 @@ import WinkImage from "../images/wink.png";
 export default function About() {
   return (
     <section className="about">
-      <h2>About Me</h2>
-
-      <h3>
-        This section is *certified* in progres{" "}
-        <img src={WinkImage} className="wink" alt="a wink ;)" />
-      </h3>
+      <h2>
+        About Me <img src={WinkImage} className="wink" alt="a wink ;)" />{" "}
+      </h2>
 
       <h3>Background and Such ✨</h3>
 
@@ -74,6 +71,10 @@ export default function About() {
         all at the same time. Separately, I've also been trying to sharpen my
         C++ skills by creating on a tilemap editor in the browser with React and
         C++ (via wasm).
+      </p>
+
+      <p>
+        Finally, as I must divulge, I am a Vim user (Neovim specifically) 😉
       </p>
 
       {/*<p>
@@ -149,7 +150,37 @@ export default function About() {
       </p>
 
       <h3>About this Site!!</h3>
-      <p>interests: the old internet, personal sites, community</p>
+
+      <p>
+        This site's design is greatly inspired from the personal sites of olde.{" "}
+        I tried to find a nice balance between modern and old design. I am
+        aiming for the feel of hyper-dense yet *personal* content that early
+        websites had, but with modern and more legible practices (and not using
+        tables for layout 🤪). To me, a lot of the internet has become
+        industrialized; many sites have taken a minimalist, "tried-and-true"
+        approach to design, but they have lost so much personality and heart in
+        the process. Though this very website is my professional advertisement
+        of myself, I wish for it to also embody the things I enjoy and express
+        itself as I feel I express myself.
+      </p>
+
+      <p>
+        To achieve this feel, I sought to use various patterns alongside each
+        other. This is to give the illusion of a clashing or dense feeling, but
+        I selected each background image and modified them so they blend
+        relatively well with each other. Readability is crucial to making this
+        site's design work, so all text has, or is layered on top of, a solid
+        color rather than sitting on a background image directly. To improve
+        readability further, I try and give each block of text its own space to
+        breathe, which deviates from old internet practices, but that's where
+        the several "chaotic" background images makes up for.
+      </p>
+
+      <p>
+        I'm still working on finalizing assets, but the goal is eventually for
+        all the assets to be pixelart or [give the illusion of being] low
+        resolution.
+      </p>
     </section>
   );
 }
