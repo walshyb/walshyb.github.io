@@ -6,14 +6,14 @@
   width: 45%;
   display: flex;
   max-width: 450px;
+  align-items: center;
+  flex-direction: column;
 
   @media (width < $md) {
     width: 90%;
   }
 
   @media (width < $lg) {
-    align-items: center;
-    flex-direction: column;
   }
 
   .intro-img {

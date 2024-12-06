@@ -2,6 +2,7 @@ import "./Header.scss";
 import Wanderlust from "./Wanderlust";
 import Anya from "../images/anya.gif";
 import HeaderText from "./HeaderText";
+import Kris from "../images/kris.png";
 
 export default function Header() {
   return (
@@ -9,10 +10,7 @@ export default function Header() {
       <Wanderlust src={Anya} count={10} />
       <div className="content-container">
         <div className="pic-container">
-          <img
-            className="profile-pic"
-            src="https://placehold.co/200x200/EEE/31343C"
-          />
+          <img className="profile-pic" src={Kris} />
         </div>
         <div className="title-container">
           <h1>
