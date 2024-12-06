@@ -1,5 +1,5 @@
 .about {
-  background-color: white;
+  background-color: #fff8f8;
 
   .keyboard {
     display: block;
@@ -9,8 +9,16 @@
     min-width: 300px;
   }
 
-  h3 {
-    font-family: Poppins;
-    font-size: 20pt;
+  .about-container {
+    h3 {
+      font-family: Poppins;
+      font-size: 20pt;
+      margin-top: 60px;
+      margin-bottom: 0;
+
+      &:first-of-type {
+        margin-top: 0;
+      }
+    }
   }
 }
