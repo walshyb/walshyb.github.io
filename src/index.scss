@@ -20,7 +20,7 @@ body {
   background-image: url(./images/background.png);
   height: 100%;
   width: 100%;
-  font-family: Poppins, Nunito, Helvetica, Arial, sans-serif;
+  font-family: Nunito, Helvetica, Arial, sans-serif;
 }
 
 section {
@@ -33,7 +33,9 @@ section {
   }
 }
 
-p {
+p,
+li {
+  font-size: 15pt;
 }
 
 @font-palette-values --myPalette {
@@ -67,12 +69,6 @@ h5 {
   h1,
   h2 {
     font-family: Stargirl, Poppins, Helvetica, Arial, sans-serif;
-  }
-
-  h3,
-  h4,
-  h5 {
-    font-family: Honk, Poppins, Helvetica, Arial, sans-serif;
   }
 }
 
