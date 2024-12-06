@@ -58,9 +58,19 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Honk", Poppins, Helvetica, Arial, sans-serif;
-  font-palette: --myPalette;
+  font-family: Poppins, Helvetica, Arial, sans-serif;
   letter-spacing: 3px;
+  font-palette: --myPalette;
+}
+
+@supports font-format(woff2) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-family: Honk, Poppins, Helvetica, Arial, sans-serif;
+  }
 }
 
 h1 {
