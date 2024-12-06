@@ -20,32 +20,35 @@ export default function Project({
   openModal,
 }) {
   const handleClick = () => {
-    openModal(id);
+    // Disabling for now
+    //openModal(id);
   };
   return (
     <div className="project">
-      <div className="project-img">
+      <div className="project-top">
         <img className="intro-img" src={imgSrc} />
+        <div className="project-details">
+          <h3 onClick={handleClick}>{name}</h3>
+          {readMore && <button onClick={handleClick}>Read More</button>}
+          {githubLink && (
+            <a href={githubLink} className="project-link" target="_blank">
+              Github
+            </a>
+          )}
+          {liveSiteLink && (
+            <a href={liveSiteLink} className="project-link" target="_blank">
+              Live Site
+            </a>
+          )}
+          {caseStudyLink && (
+            <a href={caseStudyLink} className="project-link" target="_blank">
+              Case Study
+            </a>
+          )}
+        </div>
       </div>
-      <div className="project-details">
-        <h3 onClick={handleClick}>{name}</h3>
+      <div className="project-description">
         <p>{description}</p>
-        {readMore && <button onClick={handleClick}>Read More</button>}
-        {githubLink && (
-          <a href={githubLink} target="_blank">
-            Github
-          </a>
-        )}
-        {liveSiteLink && (
-          <a href={liveSiteLink} target="_blank">
-            Live Site
-          </a>
-        )}
-        {caseStudyLink && (
-          <a href={caseStudyLink} target="_blank">
-            Case Study
-          </a>
-        )}
       </div>
     </div>
   );
