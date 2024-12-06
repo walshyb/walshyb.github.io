@@ -1,5 +1,6 @@
 import "./About.scss";
 import WinkImage from "../images/wink.png";
+import Keyboard from "../images/keyboard.jpg";
 
 export default function About() {
   return (
@@ -82,6 +83,8 @@ export default function About() {
         software career, it's been really interesting to see how quickly and the
         way the internet, as well as web tech, has evolved over time!
       </p>*/}
+
+      <img className="keyboard" src={Keyboard} />
 
       <h3>Interests</h3>
 
