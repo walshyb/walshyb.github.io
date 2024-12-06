@@ -65,11 +65,14 @@ h5 {
 
 @supports font-format(woff2) {
   h1,
-  h2,
+  h2 {
+    font-family: Stargirl, Poppins, Helvetica, Arial, sans-serif;
+  }
+
   h3,
   h4,
   h5 {
-    font-family: Stargirl, Poppins, Helvetica, Arial, sans-serif;
+    font-family: Honk, Poppins, Helvetica, Arial, sans-serif;
   }
 }
 
