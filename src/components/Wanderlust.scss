@@ -4,8 +4,8 @@
   overflow-x: hidden;
 
   // A bit ugly D:
-  // but this makes it the wanderlust doesn't expand the width of the site
-  width: calc(100% - 174px);
+  // but this makes it the wanderlust doesn't expand the width of the site, particularly on mobile
+  width: calc(100% - 170px);
 
   img {
     padding: 0 40px;
