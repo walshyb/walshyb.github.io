@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.a3336330.css",
-    "main.js": "/static/js/main.370d5231.js",
+    "main.css": "/static/css/main.97f4e055.css",
+    "main.js": "/static/js/main.3bf59411.js",
     "static/js/453.2044cb14.chunk.js": "/static/js/453.2044cb14.chunk.js",
     "static/media/Stargirl.otf": "/static/media/Stargirl.dfd19a3a46d79ff5f73c.otf",
     "static/media/radio.png": "/static/media/radio.90298bb9a5a4f63f1589.png",
+    "static/media/keyboard.jpg": "/static/media/keyboard.02315e6c32ea51bd3529.jpg",
     "static/media/new-paltz-library.png": "/static/media/new-paltz-library.d8efa359c6a5a7c38ed8.png",
+    "static/media/vaporeon.jpg": "/static/media/vaporeon.85d268c2d050fcc96bfa.jpg",
     "static/media/catskills-conf.png": "/static/media/catskills-conf.3ddae118ed7a58bef388.png",
     "static/media/poke.png": "/static/media/poke.ecef479c8e43d31b3556.png",
     "static/media/port.webp": "/static/media/port.fa4f48ca7239d5c9a49b.webp",
@@ -13,14 +15,15 @@
     "static/media/saffron.png": "/static/media/saffron.182e60d79f5d93103c62.png",
     "static/media/affiliate-github.png": "/static/media/affiliate-github.e089c96d5c5f6fdeca0c.png",
     "static/media/affiliate-resume.png": "/static/media/affiliate-resume.26b94c2e38a40092baf6.png",
+    "static/media/kris.png": "/static/media/kris.f3bab0d2848a59c0c4b5.png",
     "static/media/anya.gif": "/static/media/anya.7414e1611c724b72ee96.gif",
     "index.html": "/index.html",
-    "main.a3336330.css.map": "/static/css/main.a3336330.css.map",
-    "main.370d5231.js.map": "/static/js/main.370d5231.js.map",
+    "main.97f4e055.css.map": "/static/css/main.97f4e055.css.map",
+    "main.3bf59411.js.map": "/static/js/main.3bf59411.js.map",
     "453.2044cb14.chunk.js.map": "/static/js/453.2044cb14.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3336330.css",
-    "static/js/main.370d5231.js"
+    "static/css/main.97f4e055.css",
+    "static/js/main.3bf59411.js"
   ]
 }
