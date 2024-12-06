@@ -38,11 +38,6 @@ export default function IntroBox() {
           </p>
 
           <p>
-            (This site is still in development! Not the most mobile friendly!
-            And (slowly) working on higher fidelity / appropriately-sized
-            assets!)
-            <br />
-            <br />
             <img className="stars" src={Stars} />
           </p>
         </div>
