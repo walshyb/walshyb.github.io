@@ -7,7 +7,6 @@ import Kris from "../images/kris.png";
 export default function Header() {
   return (
     <header className="header">
-      <Wanderlust src={Anya} count={10} />
       <div className="content-container">
         <div className="pic-container">
           <img className="profile-pic" src={Kris} />
