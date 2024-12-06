@@ -3,12 +3,13 @@ import WinkImage from "../images/wink.png";
 import GithubImage from "../images/affiliate-github.png";
 import ResumeImage from "../images/affiliate-resume.png";
 import Stars from "../images/stars.gif";
+import Vaporeon from "../images/vaporeon.jpg";
 
 export default function IntroBox() {
   return (
     <section className="intro-box">
       <div className="intro-img-container">
-        <img className="intro-img" src="https://placehold.co/300x300" />
+        <img className="intro-img" src={Vaporeon} />
       </div>
       <div className="intro-content">
         <div className="intro-text">
