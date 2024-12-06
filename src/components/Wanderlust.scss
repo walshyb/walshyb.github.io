@@ -1,7 +1,11 @@
 .wanderlust {
   position: absolute;
   white-space: nowrap;
-  overflow-x: hidden;
+  overflow-x: clip;
+
+  // A bit ugly D:
+  // but this makes it the wanderlust doesn't expand the width of the site
+  //width: calc(100% - 120px);
 
   img {
     padding: 0 40px;
