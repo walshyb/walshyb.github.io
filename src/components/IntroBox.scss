@@ -9,6 +9,10 @@
   flex-direction: column;
   margin-top: 100px;
 
+  @media (width < 490px) {
+    margin-top: 80px;
+  }
+
   @media (width >= $lg) {
     flex-direction: row;
   }
