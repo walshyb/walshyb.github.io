@@ -11,6 +11,10 @@ body {
   overflow-x: hidden;
 }
 
+#root {
+  max-width: 100%;
+}
+
 body {
   margin: 0;
   background-image: url(./images/background.png);

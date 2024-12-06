@@ -42,8 +42,13 @@
 
     .intro-img {
       max-width: 500px;
+      min-width: 250px;
       width: 100%;
       border-radius: 50px;
+
+      @media (width < $lg) {
+        width: 50%;
+      }
     }
   }
 
