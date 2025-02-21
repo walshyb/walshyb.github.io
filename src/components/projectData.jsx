@@ -5,6 +5,7 @@ import Map from "../images/saffron.png";
 import Catppuccin from "../images/port.webp";
 import Radio from "../images/radio.png";
 import DSA from "../images/dsa.png";
+import Algos from "../images/algos.webp";
 
 export const projects = {
   map: {
@@ -31,6 +32,15 @@ export const projects = {
         <p>Some GOOD lorem ipsum</p>
       </>
     ),
+  },
+  algos: {
+    name: "Algorithm Visualizer",
+    imgSrc: Algos,
+    description:
+      "An algorithm visualizer built with React and C++ via WebAssembly",
+    tags: ["c++", "react", "wasm", "algorithms", "datastructures"],
+    liveSiteLink: "/algorithms-visualizer",
+    githubLink: "https://github.com/walshyb/algorithms-visualizer",
   },
   newpz: {
     name: "SUNY New Paltz Library",
