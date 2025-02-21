@@ -17,6 +17,7 @@ export default function Project({
   readMore,
   caseStudyLink,
   liveSiteLink,
+  liveSiteLinkText,
   openModal,
 }) {
   const handleClick = () => {
@@ -37,7 +38,7 @@ export default function Project({
           )}
           {liveSiteLink && (
             <a href={liveSiteLink} className="project-link" target="_blank">
-              Live Site
+              {liveSiteLinkText || "Live Site"}
             </a>
           )}
           {caseStudyLink && (

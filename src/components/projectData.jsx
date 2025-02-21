@@ -40,6 +40,7 @@ export const projects = {
       "An algorithm visualizer built with React and C++ via WebAssembly",
     tags: ["c++", "react", "wasm", "algorithms", "datastructures"],
     liveSiteLink: "/algorithms-visualizer",
+    liveSiteLinkText: "Try It Out",
     githubLink: "https://github.com/walshyb/algorithms-visualizer",
   },
   newpz: {

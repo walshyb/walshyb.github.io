@@ -23,6 +23,7 @@ export default function Projects({ openModal }) {
             readMore={project.readMore}
             caseStudyLink={project.caseStudyLink}
             liveSiteLink={project.liveSiteLink}
+            liveSiteLinkText={project.liveSiteLinkText}
             openModal={openModal}
           />
         ))}
