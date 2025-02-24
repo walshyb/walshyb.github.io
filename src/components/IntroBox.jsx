@@ -51,6 +51,7 @@ export default function IntroBox() {
             <a
               className="affiliate-banner"
               target="_blank"
+              rel="noopener"
               href="https://github.com/walshyb"
             >
               <img src={GithubImage} alt="Out link to my Github profile" />
@@ -58,6 +59,7 @@ export default function IntroBox() {
             <a
               className="affiliate-banner"
               target="_blank"
+              rel="noopener"
               href="/Oct2024Resume.pdf"
             >
               <img src={ResumeImage} alt="Out link to my PDF Resume" />

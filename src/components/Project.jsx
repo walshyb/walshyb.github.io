@@ -32,17 +32,32 @@ export default function Project({
           <h3 onClick={handleClick}>{name}</h3>
           {readMore && <button onClick={handleClick}>Read More</button>}
           {githubLink && (
-            <a href={githubLink} className="project-link" target="_blank">
+            <a
+              href={githubLink}
+              className="project-link"
+              rel="noopener"
+              target="_blank"
+            >
               Github
             </a>
           )}
           {liveSiteLink && (
-            <a href={liveSiteLink} className="project-link" target="_blank">
+            <a
+              href={liveSiteLink}
+              className="project-link"
+              rel="noopener"
+              target="_blank"
+            >
               {liveSiteLinkText || "Live Site"}
             </a>
           )}
           {caseStudyLink && (
-            <a href={caseStudyLink} className="project-link" target="_blank">
+            <a
+              href={caseStudyLink}
+              className="project-link"
+              rel="noopener"
+              target="_blank"
+            >
               Case Study
             </a>
           )}

@@ -65,7 +65,11 @@ export default function About() {
           of those categories: GameBoy development! I have been learning Game
           Boy Assembly (specifically Rednex Game Boy Assembly), and working on a
           very very simple puzzle game, &nbsp;
-          <a href="https://github.com/walshyb/lights-out-gb" target="_blank">
+          <a
+            href="https://github.com/walshyb/lights-out-gb"
+            target="_blank"
+            rel="noopener"
+          >
             Lights Out
           </a>
           , based off the 1995 electronic handheld game of the same name. It's
