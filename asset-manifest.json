@@ -1,30 +1,32 @@
 {
   "files": {
     "main.css": "/static/css/main.064ba225.css",
-    "main.js": "/static/js/main.aea444dd.js",
+    "main.js": "/static/js/main.9d0158be.js",
     "static/js/453.2044cb14.chunk.js": "/static/js/453.2044cb14.chunk.js",
     "static/media/Stargirl.otf": "/static/media/Stargirl.dfd19a3a46d79ff5f73c.otf",
-    "static/media/radio.png": "/static/media/radio.90298bb9a5a4f63f1589.png",
-    "static/media/keyboard.jpg": "/static/media/keyboard.02315e6c32ea51bd3529.jpg",
-    "static/media/new-paltz-library.png": "/static/media/new-paltz-library.d8efa359c6a5a7c38ed8.png",
-    "static/media/vaporeon.jpg": "/static/media/vaporeon.85d268c2d050fcc96bfa.jpg",
-    "static/media/catskills-conf.png": "/static/media/catskills-conf.3ddae118ed7a58bef388.png",
     "static/media/poke.png": "/static/media/poke.ecef479c8e43d31b3556.png",
+    "static/media/radio.webp": "/static/media/radio.a6ed074d3ff9f9dfe240.webp",
+    "static/media/saffron.webp": "/static/media/saffron.83912fbfda903786af62.webp",
+    "static/media/catskills-conf.webp": "/static/media/catskills-conf.b9b59e8d488c7ed08cce.webp",
+    "static/media/vaporeon.webp": "/static/media/vaporeon.58b6bd9c14297f162cf0.webp",
+    "static/media/new-paltz-library.webp": "/static/media/new-paltz-library.9f22bc3279220c4d6bad.webp",
+    "static/media/keyboard.webp": "/static/media/keyboard.e31ad2e328059fea129d.webp",
     "static/media/port.webp": "/static/media/port.fa4f48ca7239d5c9a49b.webp",
-    "static/media/dsa.png": "/static/media/dsa.9f0d7bcfdbf9061e42fa.png",
-    "static/media/saffron.png": "/static/media/saffron.182e60d79f5d93103c62.png",
-    "static/media/affiliate-github.png": "/static/media/affiliate-github.e089c96d5c5f6fdeca0c.png",
-    "static/media/affiliate-resume.png": "/static/media/affiliate-resume.26b94c2e38a40092baf6.png",
-    "static/media/kris.png": "/static/media/kris.f3bab0d2848a59c0c4b5.png",
     "static/media/anya.gif": "/static/media/anya.7414e1611c724b72ee96.gif",
+    "static/media/dsa.webp": "/static/media/dsa.375b9bb9b1ebda33468b.webp",
+    "static/media/kris.webp": "/static/media/kris.74226bf6f7b4a0d4af71.webp",
     "static/media/algos.webp": "/static/media/algos.9aca55716a03c1bcf429.webp",
+    "static/media/lights-out.webp": "/static/media/lights-out.464475c92ebe489d4b04.webp",
+    "static/media/affiliate-github.webp": "/static/media/affiliate-github.f4d83a5936324771ab66.webp",
+    "static/media/affiliate-resume.webp": "/static/media/affiliate-resume.90af1a4ce499baeb920b.webp",
+    "static/media/wink.webp": "/static/media/wink.bfdb78bb7d0fd75747dd.webp",
     "index.html": "/index.html",
     "main.064ba225.css.map": "/static/css/main.064ba225.css.map",
-    "main.aea444dd.js.map": "/static/js/main.aea444dd.js.map",
+    "main.9d0158be.js.map": "/static/js/main.9d0158be.js.map",
     "453.2044cb14.chunk.js.map": "/static/js/453.2044cb14.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.064ba225.css",
-    "static/js/main.aea444dd.js"
+    "static/js/main.9d0158be.js"
   ]
 }
