@@ -1,9 +1,9 @@
 import "./IntroBox.scss";
 import WinkImage from "../images/wink.png";
-import GithubImage from "../images/affiliate-github.png";
-import ResumeImage from "../images/affiliate-resume.png";
+import GithubImage from "../images/affiliate-github.webp";
+import ResumeImage from "../images/affiliate-resume.webp";
 import Stars from "../images/stars.gif";
-import Vaporeon from "../images/vaporeon.jpg";
+import Vaporeon from "../images/vaporeon.webp";
 
 export default function IntroBox() {
   return (

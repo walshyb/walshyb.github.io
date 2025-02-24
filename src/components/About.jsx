@@ -1,6 +1,6 @@
 import "./About.scss";
-import WinkImage from "../images/wink.png";
-import Keyboard from "../images/keyboard.jpg";
+import WinkImage from "../images/wink.webp";
+import Keyboard from "../images/keyboard.webp";
 
 export default function About() {
   return (

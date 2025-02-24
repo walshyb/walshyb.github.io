@@ -1,6 +1,6 @@
 import "./Modal.scss";
 import { projects } from "./projectData";
-import LightsOut from "../images/lights-out.png";
+import LightsOut from "../images/lights-out.webp";
 
 /**
  * @params {bool} projectId - set modal to visible if present

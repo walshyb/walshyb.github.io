@@ -2,7 +2,7 @@ import "./Header.scss";
 import Wanderlust from "./Wanderlust";
 import Anya from "../images/anya.gif";
 import HeaderText from "./HeaderText";
-import Kris from "../images/kris.png";
+import Kris from "../images/kris.webp";
 
 export default function Header() {
   return (

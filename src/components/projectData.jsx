@@ -1,10 +1,10 @@
-import LightsOut from "../images/lights-out.png";
-import CatskillsConf from "../images/catskills-conf.png";
-import NewPaltz from "../images/new-paltz-library.png";
-import Map from "../images/saffron.png";
+import LightsOut from "../images/lights-out.webp";
+import CatskillsConf from "../images/catskills-conf.webp";
+import NewPaltz from "../images/new-paltz-library.webp";
+import Map from "../images/saffron.webp";
 import Catppuccin from "../images/port.webp";
-import Radio from "../images/radio.png";
-import DSA from "../images/dsa.png";
+import Radio from "../images/radio.webp";
+import DSA from "../images/dsa.webp";
 import Algos from "../images/algos.webp";
 
 export const projects = {
