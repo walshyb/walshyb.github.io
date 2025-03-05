@@ -60,7 +60,7 @@ export default function IntroBox() {
               className="affiliate-banner"
               target="_blank"
               rel="noopener"
-              href="/Oct2024Resume.pdf"
+              href="/Brandon_Walsh_Software_Engineer_Resume.pdf"
             >
               <img src={ResumeImage} alt="Out link to my PDF Resume" />
             </a>
