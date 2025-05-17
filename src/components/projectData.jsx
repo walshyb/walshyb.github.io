@@ -6,8 +6,37 @@ import Catppuccin from "../images/port.webp";
 import Radio from "../images/radio.webp";
 import DSA from "../images/dsa.webp";
 import Algos from "../images/algos.webp";
+import Susurrae from "../images/susurrae.jpg";
 
 export const projects = {
+  susurrae: {
+    name: "Susurrae",
+    imgSrc: Susurrae,
+    description:
+      "A cozy, 2D collector-platformer made for the Solarpunk Game Jam",
+    tags: ["c++", "react", "wasm", "algorithms", "datastructures"],
+    liveSiteLink: "https://souploverspizza.itch.io/susurrae",
+    liveSiteLinkText: "Game Page",
+  },
+  algos: {
+    name: "Algorithm Visualizer",
+    imgSrc: Algos,
+    description:
+      "An algorithm visualizer built with React and C++ via WebAssembly",
+    tags: ["c++", "react", "wasm", "algorithms", "datastructures"],
+    liveSiteLink: "/algorithms-visualizer",
+    liveSiteLinkText: "Try It Out",
+    githubLink: "https://github.com/walshyb/algorithms-visualizer",
+  },
+  newpz: {
+    name: "SUNY New Paltz Library",
+    imgSrc: NewPaltz,
+    description:
+      "A rebuild of the SUNY New Paltz library website from scratch to make the site accessible per ADA compliant standards and add the ability to manage content",
+    tags: ["wordpress", "php", "jquery", "gulp"],
+    readMore: false,
+    liveSiteLink: "https://library.newpaltz.edu",
+  },
   map: {
     name: "Polished Map Web",
     imgSrc: Map,
@@ -32,25 +61,6 @@ export const projects = {
         <p>Some GOOD lorem ipsum</p>
       </>
     ),
-  },
-  algos: {
-    name: "Algorithm Visualizer",
-    imgSrc: Algos,
-    description:
-      "An algorithm visualizer built with React and C++ via WebAssembly",
-    tags: ["c++", "react", "wasm", "algorithms", "datastructures"],
-    liveSiteLink: "/algorithms-visualizer",
-    liveSiteLinkText: "Try It Out",
-    githubLink: "https://github.com/walshyb/algorithms-visualizer",
-  },
-  newpz: {
-    name: "SUNY New Paltz Library",
-    imgSrc: NewPaltz,
-    description:
-      "A rebuild of the SUNY New Paltz library website from scratch to make the site accessible per ADA compliant standards and add the ability to manage content",
-    tags: ["wordpress", "php", "jquery", "gulp"],
-    readMore: false,
-    liveSiteLink: "https://library.newpaltz.edu",
   },
   latex: {
     name: "Catppuccin LaTeX Port",
