@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.064ba225.css",
-    "main.js": "/static/js/main.2efbe159.js",
+    "main.js": "/static/js/main.15b66b64.js",
     "static/js/453.2044cb14.chunk.js": "/static/js/453.2044cb14.chunk.js",
     "static/media/Stargirl.otf": "/static/media/Stargirl.dfd19a3a46d79ff5f73c.otf",
+    "static/media/susurrae.jpg": "/static/media/susurrae.20f56e505cfef7790e35.jpg",
     "static/media/poke.png": "/static/media/poke.ecef479c8e43d31b3556.png",
     "static/media/radio.webp": "/static/media/radio.a6ed074d3ff9f9dfe240.webp",
     "static/media/saffron.webp": "/static/media/saffron.83912fbfda903786af62.webp",
@@ -22,11 +23,11 @@
     "static/media/wink.webp": "/static/media/wink.bfdb78bb7d0fd75747dd.webp",
     "index.html": "/index.html",
     "main.064ba225.css.map": "/static/css/main.064ba225.css.map",
-    "main.2efbe159.js.map": "/static/js/main.2efbe159.js.map",
+    "main.15b66b64.js.map": "/static/js/main.15b66b64.js.map",
     "453.2044cb14.chunk.js.map": "/static/js/453.2044cb14.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.064ba225.css",
-    "static/js/main.2efbe159.js"
+    "static/js/main.15b66b64.js"
   ]
 }
