@@ -2,7 +2,9 @@
 
 @font-face {
   font-family: "StarGirls";
-  src: url("./Stargirl-Base.ttf") format("truetype");
+  src:
+    url("./Stargirl-Base.ttf.cbdt.ttf") format("truetype"),
+    url("./Stargirl-Base.ttf") format("truetype");
 }
 
 html,
