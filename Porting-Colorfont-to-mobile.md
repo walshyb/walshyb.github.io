@@ -164,8 +164,8 @@ We load them in this specific order. Android/Linux devices will accept the first
 @font-face {
   font-family: "StarGirls";
   src:
-    url("./Stargirl-Base.ttf.cbdt.ttf") format("truetype"),
-    /* Android/Linux loads this */ url("./Stargirl-Base.ttf") format("truetype"); /* iOS/macOS falls back to this */
+    url("./Stargirl-Base.ttf.cbdt.ttf") format("truetype"), /* Android/Linux loads this */
+    url("./Stargirl-Base.ttf") format("truetype"); /* iOS/macOS falls back to this */
 }
 
 h1 {
