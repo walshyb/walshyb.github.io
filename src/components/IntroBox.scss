@@ -18,8 +18,6 @@
     left: 0;
     width: 100%;
     height: 100%;
-    // TODO:
-    // add nice background :)
     background: url("../images/poke.png");
     background-color: #f3f2ee;
     opacity: 0.5;
@@ -98,6 +96,11 @@
           margin-bottom: 0;
           text-align: center;
           font-size: 40pt;
+          background: linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0) 10%,
+            #f3f2ee 10%
+          );
         }
 
         img {

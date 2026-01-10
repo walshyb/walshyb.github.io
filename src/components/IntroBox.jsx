@@ -40,6 +40,8 @@ export default function IntroBox() {
 
         <div className="affiliate-links">
           <h3>
+            <img src={WinkImage} className="wink" alt="a wink ;)" />
+            {"  "}
             Some quick links{" "}
             <img src={WinkImage} className="wink" alt="a wink ;)" />
           </h3>
