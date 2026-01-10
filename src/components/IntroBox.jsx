@@ -3,14 +3,10 @@ import WinkImage from "../images/wink.png";
 import GithubImage from "../images/affiliate-github.webp";
 import ResumeImage from "../images/affiliate-resume.webp";
 import Stars from "../images/stars.gif";
-import Vaporeon from "../images/vaporeon.webp";
 
 export default function IntroBox() {
   return (
     <section className="intro-box">
-      <div className="intro-img-container">
-        <img className="intro-img" src={Vaporeon} />
-      </div>
       <div className="intro-content">
         <div className="intro-text">
           {/* TODO: turn these spans into tags that maybe filter by or bring up relevant projects? */}
@@ -63,6 +59,14 @@ export default function IntroBox() {
               href="/Brandon_Walsh_Software_Engineer_Resume.pdf"
             >
               <img src={ResumeImage} alt="Out link to my PDF Resume" />
+            </a>
+            <a
+              className="affiliate-banner"
+              target="_blank"
+              rel="noopener"
+              href="https://www.linkedin.com/in/bwalshy/"
+            >
+              <h4>LinkedIn</h4>
             </a>
           </div>
         </div>
