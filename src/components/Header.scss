@@ -26,7 +26,7 @@
     }
 
     .pic-container {
-      background-color: white;
+      background-color: #f3f2ee;
       border-radius: 50%;
       display: flex;
       justify-content: center;
@@ -54,7 +54,7 @@
     }
 
     .title-container {
-      background-color: white;
+      background-color: #f3f2ee;
       z-index: 0;
       width: 100%;
       height: 63px;
@@ -74,6 +74,7 @@
 
       h1 {
         margin-left: 130px;
+        margin-bottom: 0;
         margin-top: 0px;
         letter-spacing: 3px;
 
@@ -104,18 +105,18 @@
       }
 
       h2 {
-        background: white;
+        background: #f3f2ee;
         border-radius: 50px;
         letter-spacing: 3px;
-        margin-left: 80px;
+        margin-left: 70px;
         padding: 5px;
         padding-left: 32px;
-        margin-top: 50px;
+        margin-bottom: 0;
 
         @media (width < 570px) {
-          margin-left: 70px;
           font-size: 18pt;
           padding-left: 18px;
+          margin-top: 35px;
         }
 
         @media (width < 480px) {
@@ -127,7 +128,6 @@
         @media (width < 397px) {
           font-size: 17pt;
           letter-spacing: 1px;
-          margin-top: 70px;
         }
 
         @media (width < 327px) {
@@ -136,7 +136,7 @@
           margin-top: 20px;
         }
 
-        @media (width >= $lg) {
+        @media (width >= $md) {
           width: 70%;
           margin-left: 130px;
           padding: 20px;

@@ -40,23 +40,6 @@ li {
   font-size: 15pt;
 }
 
-@font-palette-values --myPalette {
-  font-family: "Honk";
-  base-palette: 5;
-  override-colors:
-    0 black,
-    1 black,
-    2 #f9868f,
-    3 #f9868f,
-    4 #f9868f,
-    5 white,
-    6 #f9bd54,
-    7 #f9bd54,
-    8 #f9bd54,
-    9 #f9bd54,
-    10 #f9bd54;
-}
-
 h1,
 h2,
 h3,

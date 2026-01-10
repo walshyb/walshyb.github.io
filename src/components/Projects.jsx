@@ -9,7 +9,6 @@ export default function Projects({ openModal }) {
   return (
     <section className="projects-container">
       <h2>Projects</h2>
-
       <div className="projects">
         {Object.entries(projects).map(([id, project]) => (
           <Project

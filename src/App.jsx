@@ -24,8 +24,14 @@ function App() {
     <div className="app-container">
       <Header />
       <IntroBox />
-      <Projects openModal={openModal} />
-      <About />
+      <div className="grid-wrapper">
+        <aside className="aside-left"></aside>
+        <div>
+          <Projects openModal={openModal} />
+          <About />
+        </div>
+        <aside className="aside-right"></aside>
+      </div>
       <Modal projectId={modalId} openModal={openModal} />
     </div>
   );
