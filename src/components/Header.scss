@@ -89,12 +89,12 @@
         }
 
         @media (width < 480px) {
-          font-size: 19pt;
+          font-size: 29pt;
           letter-spacing: 1px;
         }
 
-        @media (width < 390px) {
-          font-size: 16pt;
+        @media (width <= 390px) {
+          font-size: 19pt;
           letter-spacing: 1px;
         }
 
@@ -114,14 +114,14 @@
         margin-bottom: 0;
 
         @media (width < 570px) {
-          font-size: 18pt;
+          font-size: 21pt;
           padding-left: 18px;
           margin-top: 35px;
         }
 
         @media (width < 480px) {
           margin-left: 0;
-          font-size: 18pt;
+          font-size: 21pt;
           padding-left: 18px;
         }
 
@@ -131,7 +131,7 @@
         }
 
         @media (width < 327px) {
-          font-size: 16pt;
+          font-size: 19pt;
           letter-spacing: 1px;
           margin-top: 20px;
         }

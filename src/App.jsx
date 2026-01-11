@@ -21,19 +21,24 @@ function App() {
   }, []);
 
   return (
-    <div className="app-container">
-      <Header />
-      <IntroBox />
-      <div className="grid-wrapper">
-        <aside className="aside-left"></aside>
-        <div>
-          <Projects openModal={openModal} />
-          <About />
-        </div>
-        <aside className="aside-right"></aside>
+    <>
+      <div className="app-container">
+        <Header />
+        <IntroBox />
+        <Modal projectId={modalId} openModal={openModal} />
       </div>
-      <Modal projectId={modalId} openModal={openModal} />
-    </div>
+
+      <div className="grid-wrapper">
+        <div className="the-grid">
+          {/*<aside className="aside-left"></aside>*/}
+          <main>
+            <Projects openModal={openModal} />
+            <About />
+          </main>
+          {/*<aside className="aside-right"></aside>*/}
+        </div>
+      </div>
+    </>
   );
 }
 
