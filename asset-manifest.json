@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b4f9ec78.css",
-    "main.js": "/static/js/main.15b66b64.js",
+    "main.css": "/static/css/main.0c9ced41.css",
+    "main.js": "/static/js/main.485f3895.js",
     "static/js/453.2044cb14.chunk.js": "/static/js/453.2044cb14.chunk.js",
     "static/media/Stargirl-Base.ttf.cbdt.ttf": "/static/media/Stargirl-Base.ttf.cbdt.c6da89aaed7c10351447.ttf",
     "static/media/Stargirl-Base.ttf": "/static/media/Stargirl-Base.94cec6a5d77934f2a8d1.ttf",
@@ -10,7 +10,6 @@
     "static/media/radio.webp": "/static/media/radio.a6ed074d3ff9f9dfe240.webp",
     "static/media/saffron.webp": "/static/media/saffron.83912fbfda903786af62.webp",
     "static/media/catskills-conf.webp": "/static/media/catskills-conf.b9b59e8d488c7ed08cce.webp",
-    "static/media/vaporeon.webp": "/static/media/vaporeon.58b6bd9c14297f162cf0.webp",
     "static/media/new-paltz-library.webp": "/static/media/new-paltz-library.9f22bc3279220c4d6bad.webp",
     "static/media/keyboard.webp": "/static/media/keyboard.e31ad2e328059fea129d.webp",
     "static/media/port.webp": "/static/media/port.fa4f48ca7239d5c9a49b.webp",
@@ -23,12 +22,12 @@
     "static/media/affiliate-resume.webp": "/static/media/affiliate-resume.90af1a4ce499baeb920b.webp",
     "static/media/wink.webp": "/static/media/wink.bfdb78bb7d0fd75747dd.webp",
     "index.html": "/index.html",
-    "main.b4f9ec78.css.map": "/static/css/main.b4f9ec78.css.map",
-    "main.15b66b64.js.map": "/static/js/main.15b66b64.js.map",
+    "main.0c9ced41.css.map": "/static/css/main.0c9ced41.css.map",
+    "main.485f3895.js.map": "/static/js/main.485f3895.js.map",
     "453.2044cb14.chunk.js.map": "/static/js/453.2044cb14.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4f9ec78.css",
-    "static/js/main.15b66b64.js"
+    "static/css/main.0c9ced41.css",
+    "static/js/main.485f3895.js"
   ]
 }
